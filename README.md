@@ -1,4 +1,4 @@
 # 🖥 raynes.cc
 
-My website. ⋅⋅⋅
-*Kindly hosted by Github Pages.*
+My website.
+⋅⋅⋅ *Kindly hosted by Github Pages.*
