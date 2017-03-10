@@ -1,3 +1,3 @@
-# 🖥 raynes.cc
+# raynes.cc
 
 *Kindly hosted by Github Pages.*
