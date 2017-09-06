@@ -1,3 +1,7 @@
 # raynes.cc
 
-*Kindly hosted by Github Pages.*
+[Click here to visit site](https://raynes.cc) 👈
+
+*Hosted with Github Pages and built on Skelton*
+
+🔥🔥🔥🔥🔥🔥
