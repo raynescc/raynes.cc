@@ -1,4 +1,8 @@
-.follow {
+.container {
+text-align: center;
+}
+
+  .follow {
   margin-top: 20px;
   text-align: center;
 }
