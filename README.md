@@ -1,3 +1,3 @@
-# raynes.io
+# raynes.cc
 
-[Click here to visit site](https://raynes.io) 👈
+[Click here to visit site](https://raynes.cc) 👈
