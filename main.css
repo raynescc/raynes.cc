@@ -261,6 +261,6 @@ body.page-template-page-fullsingle-split p {
 }
 @media (max-width: 400px) {
 	.split-intro .tagline {
-		font-size: 48px;
+		font-size: 38px;
 	}
 }
