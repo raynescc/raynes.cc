@@ -1,3 +1,3 @@
-# raynes.cc
+# ajuk.co
 
-[Click here to visit site](https://raynes.cc) 👈
+[Click here to visit site](https://ajuk.co) 👈
