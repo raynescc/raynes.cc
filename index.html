@@ -5,36 +5,21 @@
 	<meta charset="UTF-8">
 	<meta content="IE=edge" http-equiv="X-UA-Compatible">
 	<meta content="Hey! I'm Andrew. Avid traveller and Software Engineer at Lloyds Bank." name="description">
-	
+
 	<title>Andrew</title>
-	
-	<!-- Fav, CSS, Fonts -->
+
+	<!-- Fav, CSS, Font, JS -->
 	<link href="images/favicon.png" rel="icon" sizes="32x32" type="image/png">
 	<link href='main.css' media='screen' rel='stylesheet' type='text/css'>
 	<meta content="width=device-width,initial-scale=1" name="viewport">
-	<script src="https://use.fontawesome.com/f01dd7613e.js">
-	</script>
-	
+	<script src="https://use.fontawesome.com/f01dd7613e.js"></script>
+	<script type="text/javascript" src="http://www.cornify.com/js/cornify.js"></script>
+	<script src="main.js"></script>
+
 	<!-- Add some site analytics soon -->
-	
+
 </head>
-<body class="page-template-page-fullsingle-split" id="fullsingle">
-	<!-- JS -->
-	<script>
-	   (() => {
-	     let pressedKeys = []
-	     const secretCode = 'andrew'
-	     window.addEventListener('keyup', (e) => {
-	     secretCode[pressedKeys.length] === e.key ?
-	     pressedKeys.push(e.key) : pressedKeys.length = 0
-	     pressedKeys.join('') === secretCode && (()=>{
-	     console.info('Yo yo yo!')
-	     cornify_add()
-	         pressedKeys = []
-	       })()
-	     })
-	   })();
-	</script>
+<body class="page-spliter" id="fullsingle">
 	<div class="fs-split">
 		<div class="split-image"></div>
 		<div class="split-content">

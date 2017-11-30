@@ -81,7 +81,7 @@ a, a:hover {
 html {
 	background-color: #061C30;
 }
-body.page-template-page-fullsingle-split {
+body.page-spliter {
 	background-color: #061C30;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 400;
@@ -92,7 +92,7 @@ body.page-template-page-fullsingle-split {
 	-webkit-animation: fadein 2s;
 	animation: fadein 2s;
 }
-body.page-template-page-fullsingle-split p {
+body.page-spliter  p {
 	color: #848d96;
 }
 .fs-split {
