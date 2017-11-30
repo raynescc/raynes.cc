@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en-US">
-<head>
+<head>	
+	<!-- Meta Data -->
 	<meta charset="UTF-8">
 	<meta content="IE=edge" http-equiv="X-UA-Compatible">
+	<meta content="Hey! I'm Andrew. Avid traveller and Software Engineer at Lloyds Bank." name="description">
 
 	<title>Andrew</title>
-	<meta content="Hey! I'm Andrew. Avid traveller and Software Engineer at Lloyds Bank." name="description">
+	
+	<!-- Fav, CSS, Fonts -->
 	<link href="images/favicon.png" rel="icon" sizes="32x32" type="image/png">
 	<link href='main.css' media='screen' rel='stylesheet' type='text/css'>
 	<meta content="width=device-width,initial-scale=1" name="viewport">
@@ -15,6 +18,27 @@
 
 </head>
 <body class="page-template-page-fullsingle-split" id="fullsingle">
+
+<!-- JS -->
+<script>
+    (() => {
+      let pressedKeys = []
+      const secretCode = 'andrew'
+      window.addEventListener('keyup', (e) => {
+      secretCode[pressedKeys.length] === e.key ?
+      pressedKeys.push(e.key) : pressedKeys.length = 0
+      pressedKeys.join('') === secretCode && (()=>{
+      console.info('Yo yo yo!')
+      cornify_add()
+          pressedKeys = []
+        })()
+      })
+    })();
+  </script>
+	
+	
+	
+	
 	<div class="fs-split">
 		<div class="split-image"></div>
 		<div class="split-content">
