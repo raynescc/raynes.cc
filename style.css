@@ -113,7 +113,7 @@ body.page-template-page-fullsingle-split p {
 .fs-split .split-image {
 	width: 50%;
 	height: 100vh;
-	background-image: url("images/background.jpeg");
+	background-image: url("images/side.jpeg");
 	background-position: center center;
 	background-size: cover;
 }
