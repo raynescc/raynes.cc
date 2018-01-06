@@ -1,3 +1,10 @@
+/* Fade page in on load */
+$(document).ready(function(){
+$('body').css('display', 'none');
+$('body').fadeIn(1000);
+});
+
+/* Secret Code, using cornify */
 const pressed = [];
 const secretCode = 'andrew';
 window.addEventListener('keyup', (e) => {

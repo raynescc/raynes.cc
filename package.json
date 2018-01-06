@@ -1,0 +1,32 @@
+{
+  "name": "ajuk.co",
+  "version": "1.0.0",
+  "description": "My personal website.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajukco/ajuk.co.git"
+  },
+  "keywords": [
+    "Personal",
+    "Website",
+    "ajuk.co"
+  ],
+  "author": "Andrew Raynes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ajukco/ajuk.co/issues"
+  },
+  "homepage": "https://github.com/ajukco/ajuk.co#readme",
+  "dependencies": {
+    "csshake": "^1.5.3",
+    "express": "^4.16.2",
+    "grunt": "^1.0.1",
+    "grunt-contrib-less": "^1.4.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-express-server": "^0.5.3"
+  }
+}
