@@ -292,6 +292,9 @@ body.full-page p {
   font-size: 25px !important;
   padding-right: 10px !important;
 }
+.fa:hover {
+  transform: scale(1.1);
+}
 /* Project Page */
 .proj {
   background-color: #fff;
@@ -301,6 +304,11 @@ body.full-page p {
 }
 .proj .bio p {
   color: #50504f;
+}
+.projects {
+  margin: auto;
+  width: 50%;
+  text-align: center;
 }
 .projects img {
   width: 200px;
