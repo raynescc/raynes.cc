@@ -9,7 +9,7 @@
 2. Do the following in Terminal or command line
 
   ```
-  git clone .....
+  git clone https://github.com/ajukco/ajuk.co.git
   cd ajuk.co
   npm install
   node server
