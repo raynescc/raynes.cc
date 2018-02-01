@@ -1,0 +1,33 @@
+{
+  "name": "ajuk.co",
+  "version": "1.0.0",
+  "description": "My personal website.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajukco/ajuk.co.git"
+  },
+  "keywords": [
+    "personal",
+    "website",
+    "ajuk.co"
+  ],
+  "author": "Andrew Raynes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ajukco/ajuk.co/issues"
+  },
+  "homepage": "https://github.com/ajukco/ajuk.co#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-html-minifier2": "^1.1.8",
+    "gulp-live-server": "0.0.31",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp-uglifycss": "^1.0.9",
+    "pump": "^3.0.0"
+  }
+}
