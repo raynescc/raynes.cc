@@ -1,4 +1,4 @@
-/* note: Need to add the ability to compile ES6 to Vanilla */
+/* Note: Need to add the ability to compile ES6 to Vanilla */
 
 // Required npm packages
 const gulp = require('gulp');
@@ -16,7 +16,7 @@ gulp.src('./src/*.html')
 .pipe(gulp.dest('./dist/'));
 });
 
-// Minify all .js files and move to dist, also allow compiling of ES6 to vanilla JS
+// Minify all .js files and move to dist
 gulp.task('js', (cb) => {
 pump ([
 gulp.src('./src/assets/js/*.js'),
@@ -37,7 +37,7 @@ gulp.task('sass', () => {
 });
 
 // Server
-  gulp.task('serve', () => {
+  gulp.task('server', () => {
   const server = gls.static('./dist', 3000);
   server.start();
   gulp.watch(['./dist/css/*.css', './dist/js/*.js', './dist/index.html'], (file) => {
@@ -47,4 +47,4 @@ gulp.task('sass', () => {
   });
 
 // An array of tasks, allowing you to simply run 'gulp' without the task name
-gulp.task('default', ['html', 'js', 'sass', 'serve']);
+gulp.task('default', ['html', 'js', 'sass', 'server']);
