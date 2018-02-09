@@ -1,6 +1,6 @@
 # ajuk.co
 
-[Click here to visit site](https://ajuk.co) 👈
+[Click here to visit site](https://raynes.io) 👈
 
 
 ## Run locally
@@ -9,7 +9,7 @@
 2. Do the following in Terminal or command line
 
   ```
-  git clone https://github.com/ajukco/ajuk.co.git
+  git clone https://github.com/raynesio/ajuk.co.git
   cd ajuk.co
   npm install
   node server
