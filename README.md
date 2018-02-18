@@ -1,6 +1,6 @@
 # raynes.io
 
-[Click here to visit site](https://raynes.io) 👈
+Curious to know more about me? [Click here](https://raynes.io) 👈 and take a look at my personal website.
 
 
 ## Run locally
