@@ -1,0 +1,35 @@
+* {
+  margin: auto 0;
+}
+
+// Header
+.header {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  text-align: center;
+  margin: 0px 80px 0px 80px;
+.name {
+  text-align: left;
+}
+.links {
+  text-align: right;
+  a {
+    padding: 5px;
+  }
+}
+}
+
+@media (max-width: 800px) {
+.links {
+  display: none;
+}
+}
+
+// Me
+img {
+   border-radius: 50%;
+   -moz-border-radius: 50%;
+   -webkit-border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
