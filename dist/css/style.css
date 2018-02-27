@@ -1,4 +1,7 @@
-*{margin:auto 0}.header{display:grid;grid-template-columns:30% 70%;text-align:center;margin:0 80px 0 80px}
+*{margin:auto 0}.header{display:grid;grid-template-columns:30% 70%;text-align:center;margin:0 80px;padding-bottom:200px}
 .header .name{text-align:left}.header .links{text-align:right}.header .links a{padding:5px}
-.me{grid-template-columns:1fr;display:grid}.me img{border-radius:50%;-moz-border-radius:50%;-webkit-border-radius:50%;width:200px;height:200px;margin:auto}
-@media(max-width:800px){.links{display:none}}
+.intro{grid-template-columns:1fr;display:grid;padding-bottom:200px}.intro img{border-radius:50%;-moz-border-radius:50%;-webkit-border-radius:50%;width:200px;height:200px;margin:auto}
+.intro h1,.intro h2,.intro p{margin:auto;text-align:center;color:#363636}.about-me{background-color:#eeda93;height:600px;width:100%}
+.projects{background-color:#fff;height:400px;width:100%}.instagram{background-color:#5782c6;height:300px;width:100%}
+.footer{background-color:#363636;height:60px;width:100%}@media(max-width:800px){.links{display:none}
+}
