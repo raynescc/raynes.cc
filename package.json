@@ -1,5 +1,5 @@
 {
-  "name": "ajuk.co",
+  "name": "raynes.io",
   "version": "1.0.0",
   "description": "My personal website.",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ajukco/ajuk.co.git"
+    "url": "git+https://github.com/raynesio/raynes.io.git"
   },
   "keywords": [
     "personal",
@@ -18,9 +18,9 @@
   "author": "Andrew Raynes",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ajukco/ajuk.co/issues"
+    "url": "https://github.com/raynesio/raynes.io/issues"
   },
-  "homepage": "https://github.com/ajukco/ajuk.co#readme",
+  "homepage": "https://github.com/raynesio/raynes.io#readme",
   "dependencies": {
     "gulp": "^3.9.1",
     "gulp-html-minifier2": "^1.1.8",
