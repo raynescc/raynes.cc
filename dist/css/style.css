@@ -1,11 +1,15 @@
 *{margin:auto 0}@font-face{font-family:"WhitneyBook";src:url("/fonts/WhitneyHTF-Book.otf");font-weight:normal}
 @font-face{font-family:"WhitneySemiBold";src:url("/fonts/WhitneyHTF-SemiBold.otf");font-weight:normal}
-.header{display:grid;grid-template-columns:30% 70%;margin:0 80px;padding-bottom:200px;text-align:center}
-.header .name{text-align:left;font-family:"WhitneyBook";color:#363636}
-.header .name a{text-decoration:none}.header .links{text-align:right}.header .links a{font-family:"WhitneyBook";color:#363636;text-decoration:none;padding:5px}
-.intro{grid-template-columns:1fr;display:grid;padding-bottom:200px}.intro h1{font-family:"WhitneySemiBold";font-size:40px}
-.intro h2{font-family:"WhitneyBook";font-size:25px}.intro p{font-family:"WhitneyBook";font-size:16px}
-.intro h1,.intro h2,.intro p{margin:auto;text-align:center;color:#363636}.intro img{border-radius:50%;-moz-border-radius:50%;-webkit-border-radius:50%;width:200px;height:200px;margin:auto}
+.top{height:100vh}.top .nav-bar{display:grid;grid-template-columns:30% 70%;margin:0 80px;padding-bottom:150px;text-align:center}
+.top .nav-bar .name{text-align:left;font-family:"WhitneyBook";color:#363636}
+.top .nav-bar .name a{text-decoration:none}.top .nav-bar .links{text-align:right}
+.top .nav-bar .links a{font-family:"WhitneyBook";color:#363636;text-decoration:none;padding:5px}
+.top .intro{grid-template-columns:1fr;display:grid}.top .intro h1{font-family:"WhitneySemiBold";font-size:40px;color:#363636}
+.top .intro h2{font-family:"WhitneySemiBold";font-size:30px;color:#5782c6}
+.top .intro h3{font-family:"WhitneyBook";font-size:25px;color:#363636}
+.top .intro p{font-family:"WhitneyBook";font-size:16px;color:#363636}
+.top .intro h1,.top .intro h2,.top .intro h3,.top .intro p{margin:auto;text-align:center}
+.top .intro hr{color:#363636;width:30%;margin:auto}.top .intro img{border-radius:50%;-moz-border-radius:50%;-webkit-border-radius:50%;width:200px;height:200px;margin:auto}
 .about-me{background-color:#eeda93;height:600px;width:100%}.projects{background-color:#fff;height:400px;width:100%}
 .instagram{background-image:url("../img/insta-background.jpg");height:300px;width:100%}
 .instagram .layer{background-color:#5782c6;opacity:.8;width:100%;height:100%}.footer{color:#fff;font-family:"WhitneyBook";font-size:14px;text-align:center;line-height:60px;background-color:#363636;height:60px;width:100%}

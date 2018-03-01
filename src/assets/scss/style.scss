@@ -28,12 +28,14 @@ $top-brown: #F7F5F6;
 $instagram-blue: #5782C6;
 $holder-line: #BDBDBD;
 
-/* Header */
-.header {
+/* Nav Bar */
+.top {
+  height: 100vh;
+.nav-bar {
   display: grid;
   grid-template-columns: 30% 70%;
   margin: 0 80px;
-  padding-bottom: 200px;
+  padding-bottom: 150px;
   text-align: center;
 
   .name {
@@ -62,27 +64,38 @@ $holder-line: #BDBDBD;
 .intro {
   grid-template-columns: 1fr;
   display: grid;
-  padding-bottom: 200px;
   h1 {
     font-family: $whitneySemiBold;
     font-size: 40px;
+    color: $text;
   }
   h2 {
+    font-family: $whitneySemiBold;
+    font-size: 30px;
+    color: $link-blue;
+  }
+  h3 {
     font-family: $whitneyBook;
     font-size: 25px;
+    color: $text;
   }
   p {
     font-family: $whitneyBook;
     font-size: 16px;
+    color: $text;
   }
   h1,
   h2,
+  h3,
   p {
     margin: auto;
     text-align: center;
-    color: $text;
   }
-
+  hr {
+    color: $text;
+    width: 30%;
+    margin: auto;
+  }
   img {
     border-radius: 50%;
     -moz-border-radius: 50%;
@@ -91,6 +104,7 @@ $holder-line: #BDBDBD;
     height: 200px;
     margin: auto;
   }
+}
 }
 
 /* About Me */
@@ -112,7 +126,6 @@ $holder-line: #BDBDBD;
   background-image: url("../img/insta-background.jpg");
   height: 300px;
   width: 100%;
-
   .layer {
     background-color: $instagram-blue;
     opacity: 0.8;
