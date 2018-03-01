@@ -42,7 +42,7 @@ gulp.task('sass', () => {
 gulp.task('server', () => {
   const server = gls.static('./dist', 3000);
   server.start();
-  gulp.watch(['./dist/css/*.css', './dist/js/*.js', './dist/index.html'], (file) => {
+  gulp.watch(['./dist/css/*.css', './dist/js/*.js', './dist/*.html'], (file) => {
     server.notify.apply(server, [file]);
     console.log('Running on localhost:3000')
   });
