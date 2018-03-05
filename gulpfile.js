@@ -1,6 +1,5 @@
 /* Note: Need to add the ability to compile ES6 to Vanilla */
 
-// Required npm packages
 const gulp = require('gulp');
 const htmlmin = require('gulp-html-minifier2');
 const uglify = require('gulp-uglify');
@@ -27,7 +26,7 @@ gulp.task('js', (cb) => {
   ], cb)
 });
 
-// Compile SASS to CSS and minify
+// Minify CSS to SASS
 gulp.task('sass', () => {
   gulp.src('./src/assets/scss/*.scss')
     .pipe(sass())

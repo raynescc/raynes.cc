@@ -27,13 +27,13 @@ $whitneySemiBold: 'WhitneySemiBold';
 /* Colors */
 $text: #363636;
 $white: #fff;
-$link-blue: #5782C6;
-$tag-green: #7EC967;
-$tag-red: #C7014C;
+$link-blue: #5782c6;
+$tag-green: #7ec967;
+$tag-red: #c7014c;
 $profile-yellow: #eeda93;
-$top-brown: #F7F5F6;
+$top-brown: #f7f5f6;
 $instagram-blue: #5782C6;
-$holder-line: #BDBDBD;
+$holder-line: #bdbdbd;
 
 /* Nav Bar */
 .top {
@@ -160,6 +160,9 @@ $holder-line: #BDBDBD;
   margin: 0 20%;
   img {
     max-width: 100%;
+  }
+  img:hover {
+    opacity: 0.6;
   }
 }
 
