@@ -1,18 +1,18 @@
-*{margin:auto 0}* h1,* h2,* h3,* p{margin:auto;text-align:center}@font-face{font-family:"WhitneyBook";src:url("/fonts/WhitneyHTF-Book.otf");font-weight:normal}
-@font-face{font-family:"WhitneySemiBold";src:url("/fonts/WhitneyHTF-SemiBold.otf");font-weight:normal}
-.top{height:100vh}.top .nav-bar{display:grid;grid-template-columns:30% 70%;margin:0 80px;padding-bottom:150px;text-align:center}
-.top .nav-bar .name{text-align:left;font-family:"WhitneyBook";color:#363636}
-.top .nav-bar .name a{text-decoration:none}.top .nav-bar .links{text-align:right}
-.top .nav-bar .links a{font-family:"WhitneyBook";color:#363636;text-decoration:none;padding:5px}
-.top .intro{grid-template-columns:1fr;display:grid}.top .intro h1{font-family:"WhitneySemiBold";font-size:40px;color:#363636}
-.top .intro h2{font-family:"WhitneySemiBold";font-size:30px;color:#5782c6}
-.top .intro h3{font-family:"WhitneyBook";font-size:25px;color:#363636}
-.top .intro p{font-family:"WhitneyBook";font-size:16px;color:#363636}
-.top .intro hr{color:#363636;width:30%;margin:auto}.top .intro img{border-radius:50%;-moz-border-radius:50%;-webkit-border-radius:50%;width:200px;height:200px;margin:auto}
+@import url("https://fonts.googleapis.com/css?family=Karla:400,700");*{margin:auto 0}* h1,* h2,* h3,* p{margin:auto;text-align:center}
+.show-menu{font-family:"Karla";font-size:16px;text-decoration:none;text-transform:uppercase;color:#fff;background:#1b1423;font-weight:700;text-align:center;display:none;width:100%;height:50px;border:0;cursor:pointer}
+.show-menu:focus{outline:0}.nav ul{list-style:none;background-color:#1b1423;text-align:center;padding:0;margin:0}
+.nav ul li{display:inline-block;margin-right:-4px;width:140px;font-weight:700;font-family:"Karla";font-size:16px;line-height:50px;height:50px}
+.nav a{text-decoration:none;text-transform:uppercase;color:#fff;display:block;transition:.3s background-color}
+.nav a:hover{background-color:#674497}.nav a.active{background-color:#674497}.intro{grid-template-columns:1fr;display:grid}
+.intro h1{font-family:"Karla";font-size:40px;color:#363636}.intro h2{font-family:"Karla";font-size:30px;color:#5782c6}
+.intro h3{font-family:"Karla";font-size:25px;color:#363636}.intro p{font-family:"Karla";font-size:16px;color:#363636}
+.intro hr{color:#363636;width:30%;margin:auto}.intro img{border-radius:50%;-moz-border-radius:50%;-webkit-border-radius:50%;width:200px;height:200px;margin:auto}
 .about-me{background-color:#eeda93;height:600px;width:100%}.projects{background-color:#fff;height:400px;width:100%}
 .instagram{background-image:url("../img/insta-background.jpg");height:300px;width:100%}
-.instagram .layer{background-color:#5782c6;opacity:.8;width:100%;height:100%}.footer{color:#fff;font-family:"WhitneyBook";font-size:14px;text-align:center;line-height:60px;background-color:#363636;height:60px;width:100%}
+.instagram .layer{background-color:#5782c6;opacity:.8;width:100%;height:100%}.footer{color:#fff;font-family:"Karla";font-size:14px;text-align:center;line-height:60px;background-color:#363636;height:60px;width:100%}
 .footer a{color:#fff;text-decoration:underline}.footer a:hover{text-decoration:none}
 .gallery{display:grid;grid-template-columns:repeat(3,1fr);grid-gap:20px;margin:0 20%}
 .gallery img{max-width:100%}.gallery img:hover{opacity:.6}@media(max-width:800px){.links{display:none}
-.gallery{grid-gap:5px;margin:0}}
+.gallery{grid-gap:5px;margin:0}}@media screen and (max-width:800px){.nav{display:none}
+.nav ul{position:static}.nav li{margin-bottom:1px}.nav ul li,li a{width:100%}.show-menu{display:block}
+}@media screen and (min-width:800px){.nav{display:block !important}}
