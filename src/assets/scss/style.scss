@@ -15,6 +15,7 @@ $profile-yellow: #eeda93;
 $top-brown: #f7f5f6;
 $instagram-blue: #5782C6;
 $line: #bdbdbd;
+$insta-blue: #3897f0;
 
 /* Body */
 * {
@@ -178,13 +179,42 @@ $line: #bdbdbd;
   width: 150px;
   margin: 40px;
 }
-h1 {
-  font-family: $Montserrat;
+.title {
+  display: flex;
+  flex-wrap: nowrap;
   text-align: left;
+  margin-bottom: 20px;
+  h1 {
+    font-family: $Montserrat;
+    margin: 0;
+    margin-right: 15px;
+  }
+  button {
+    background-color: $insta-blue;
+    font-size: 14px;
+    color: $white;
+    border: none;
+    height: 24px;
+    border: 0;
+    margin: 8px;
+    padding: 0px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
 }
 .counts {
   display: flex;
   flex-wrap: nowrap;
+  font-family: $karla;
+  text-align: left;
+  p {
+    margin-left: 0px;
+    margin-right: 40px;
+    text-align: left;
+    span {
+      font-weight: bold;
+    }
+  }
 }
 }
 
