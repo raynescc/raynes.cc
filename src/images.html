@@ -19,16 +19,42 @@ Have a question for me? Tweet me: @raynesio
 
 	<title>raynes.io</title>
 
-	<!-- Fav, CSS, Fonts, JS -->
+	<!-- Fav, CSS, JS -->
 	<link href="img/favicon.png" rel="icon" sizes="32x32" type="image/png">
 	<link href='css/style.css' media='screen' rel='stylesheet' type='text/css'>
-	<!-- <script type="text/javascript" src="app.js"></script> -->
+	<script type="text/javascript" src="/js/app.js"></script>
 </head>
 
 <body>
 
-	<h1>My Instagram</h1>
+	<!-- Nav -->
+	<button onclick="showMenu()" class="show-menu">Menu</button>
+	<div class="nav" id="nav" style="display: none;">
+		<ul id="menu">
+			<li class="home"><a href="#">About</a></li>
+			<li class="contact"><a href="#">Blog</a></li>
+			<li class="about"><a href="#">Projects</a></li>
+			<li class="news"><a href="#">Photos</a></li>
+			<li class="tutorials"><a href="#">Resume</a></li>
+			<li class="contact"><a href="#">Contact</a></li>
+		</ul>
+	</div>
 
+	<!-- Insta-style -->
+	<div class="insta">
+		<img class="me" src="/img/me.jpg">
+		<div class="info">
+		<h1>raynes.io</h1>
+		<div class="counts">
+		<p>429 posts</p>
+		<p>429 posts</p>
+		<p>429 posts</p>
+		</div>
+		<h2>Coder and Traveller.</h2>
+		</div>
+	</div>
+
+	<!-- Gallery -->
 	<main class="gallery">
 		<img src="/img/gallery/family.jpg">
 		<img src="/img/gallery/fireworks.jpg">
@@ -55,4 +81,5 @@ Have a question for me? Tweet me: @raynesio
 	</div>
 
 </body>
+
 </html>
