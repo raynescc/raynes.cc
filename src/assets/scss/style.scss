@@ -232,6 +232,17 @@ $insta-blue: #3897f0;
   }
 }
 
+/* Side Panel Images - About */
+.side-panel {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+    img {
+    width: 100px;
+    margin: 10px;
+    }
+}
+
 /* Media Queries */
 @media (max-width: 800px) {
   .links {
