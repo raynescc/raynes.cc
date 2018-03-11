@@ -210,6 +210,9 @@ $insta-blue: #3897f0;
     grid-gap: 5px;
     margin: 0;
   }
+  .insta {
+    margin: 0;
+  }
 }
 @media screen and (max-width: 820px) {
     .nav {
@@ -232,4 +235,14 @@ $insta-blue: #3897f0;
     .nav {
       display: block !important;
     }
+  }
+
+  @media (max-width: 1000px) {
+    .insta {
+      .me {
+      height: 100px;
+      width: 100px;
+      margin: 40px 20px 40px 20px;
+    }
+  }
   }
