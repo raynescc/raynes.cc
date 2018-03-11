@@ -119,13 +119,13 @@ $insta-blue: #3897f0;
   border-radius: 50%;
   height: 150px;
   width: 150px;
-  margin: 40px;
+  margin: 40px 60px 40px 40px;
 }
 .title {
   display: flex;
   flex-wrap: nowrap;
   text-align: left;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   h1 {
     font-family: $Montserrat;
     color: $dark-purple;
@@ -150,6 +150,7 @@ $insta-blue: #3897f0;
   flex-wrap: nowrap;
   font-family: $karla;
   text-align: left;
+  margin-bottom: 10px;
   p {
     margin-left: 0px;
     margin-right: 40px;
@@ -159,6 +160,9 @@ $insta-blue: #3897f0;
       font-weight: bold;
     }
   }
+}
+.bio {
+  text-align: left;
 }
 }
 .gallery {
