@@ -24,13 +24,17 @@ $insta-blue: #3897f0;
   h2,
   h3,
   p {
-    margin: auto;
+    font-family: $karla;
+    color: $dark-purple;
     text-align: center;
+    margin: auto;
   }
   h1 {
-    text-transform: uppercase;
     font-size: 32px;
-    font-family: $karla;
+    text-transform: uppercase;
+  }
+  button {
+    outline: 0;
   }
 }
 
@@ -124,6 +128,7 @@ $insta-blue: #3897f0;
   margin-bottom: 20px;
   h1 {
     font-family: $Montserrat;
+    color: $dark-purple;
     margin: 0;
     margin-right: 15px;
   }
@@ -149,14 +154,13 @@ $insta-blue: #3897f0;
     margin-left: 0px;
     margin-right: 40px;
     text-align: left;
+    color: $dark-purple;
     span {
       font-weight: bold;
     }
   }
 }
 }
-
-/* Gallery - Photos */
 .gallery {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
