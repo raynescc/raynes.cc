@@ -27,9 +27,14 @@ $insta-blue: #3897f0;
     margin: auto;
     text-align: center;
   }
+  h1 {
+    text-transform: uppercase;
+    font-size: 32px;
+    font-family: $karla;
+  }
 }
 
-/* Nav Bar */
+/* Nav Bar - Common */
 .show-menu {
   font-family: $karla;
   font-size: 16px;
@@ -81,73 +86,6 @@ $insta-blue: #3897f0;
   }
 }
 
-  /* Intro */
-  .intro {
-    grid-template-columns: 1fr;
-    display: grid;
-    h1 {
-      font-family: $karla;
-      font-size: 40px;
-      color: $text;
-    }
-    h2 {
-      font-family: $karla;
-      font-size: 30px;
-      color: $link-blue;
-    }
-    h3 {
-      font-family: $karla;
-      font-size: 25px;
-      color: $text;
-    }
-    p {
-      font-family: $karla;
-      font-size: 16px;
-      color: $text;
-    }
-    hr {
-      color: $text;
-      width: 30%;
-      margin: auto;
-    }
-    img {
-      border-radius: 50%;
-      -moz-border-radius: 50%;
-      -webkit-border-radius: 50%;
-      width: 200px;
-      height: 200px;
-      margin: auto;
-    }
-  }
-
-/* About Me */
-.about-me {
-  background-color: $profile-yellow;
-  height: 600px;
-  width: 100%;
-}
-
-/* Projects */
-.projects {
-  background-color: $white;
-  height: 400px;
-  width: 100%;
-}
-
-
-/* Instagram */
-.instagram {
-  background-image: url("../img/insta-background.jpg");
-  height: 300px;
-  width: 100%;
-  .layer {
-    background-color: $instagram-blue;
-    opacity: 0.8;
-    width: 100%;
-    height: 100%;
-  }
-}
-
 /* Footer - Common */
 .footer {
   color: $white;
@@ -167,7 +105,7 @@ $insta-blue: #3897f0;
   width: 100%;
 }
 
-/* Insta - Photos */
+/* Photos Page */
 .insta {
   display: flex;
   flex-wrap: nowrap;
@@ -232,14 +170,26 @@ $insta-blue: #3897f0;
   }
 }
 
-/* Side Panel Images - About */
+/* About Me - About */
+.about-me {
+  width: 40%;
+  h1 {
+    text-align: left;
+    font-weight: 400;
+  }
+   p {
+    text-align: left;
+    font-family: $karla;
+    font-size: 18px;
+  }
+}
 .side-panel {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
     img {
-    width: 100px;
-    margin: 10px;
+      width: 200px;
+      margin: 10px;
     }
 }
 

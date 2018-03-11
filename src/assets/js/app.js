@@ -1,3 +1,6 @@
+//TODO: MAKE NAVBAR ANIMATED ON TOGGLE.
+
+
 /* Toggle Navbar (Mobile View) */
 function showMenu() {
   var menu = document.getElementById("nav");
@@ -8,4 +11,9 @@ function showMenu() {
   }
 }
 
-//TODO: MAKE NAVBAR ANIMATED ON TOGGLE.
+/* Insta Image Count */
+// function myFunction() {
+    var nodelist = document.getElementsByClassName("insta-img").length;
+    console.log(nodelist);
+    // document.getElementById("demo").innerHTML = nodelist;
+// }
