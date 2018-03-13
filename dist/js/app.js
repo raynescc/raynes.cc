@@ -1,1 +1,1 @@
-function showMenu(){var e=document.getElementById("nav");"none"===e.style.display?e.style.display="block":e.style.display="none"}var nodelist=document.getElementsByClassName("insta-img").length;console.log(nodelist);
+function showMenu(){var e=document.getElementById("nav");"none"===e.style.display?e.style.display="block":e.style.display="none"}$(document).ready(function(){var e=window.location.pathname;$('#menu > li > a[href="'+e+'"]').parent().addClass("active")});var nodelist=document.getElementsByClassName("insta-img").length;console.log(nodelist);

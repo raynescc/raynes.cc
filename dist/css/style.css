@@ -3,7 +3,7 @@
 * h1{font-size:32px;text-transform:uppercase}* button{outline:0}.show-menu{font-family:"Karla";font-size:16px;text-decoration:none;text-transform:uppercase;color:#fff;background:#1b1423;font-weight:700;text-align:center;display:none;width:100%;height:50px;border:0;cursor:pointer}
 .show-menu:focus{outline:0}.nav ul{list-style:none;background-color:#1b1423;text-align:center;padding:0;margin:0}
 .nav ul li{display:inline-block;margin-right:-4px;width:140px;font-weight:700;font-family:"Karla";font-size:16px;line-height:50px;height:50px}
-.nav a{text-decoration:none;text-transform:uppercase;color:#fff;display:block;transition:.3s background-color}
+.nav ul .active{background-color:#674497}.nav a{text-decoration:none;text-transform:uppercase;color:#fff;display:block;transition:.3s background-color}
 .nav a:hover{background-color:#674497}.nav a.active{background-color:#674497}.footer{color:#fff;font-family:"Karla";font-size:14px;text-align:center;line-height:60px;background-color:#1b1423;height:60px;width:100%}
 .footer a{color:#fff;text-decoration:underline}.footer a:hover{text-decoration:none}
 .insta{display:flex;flex-wrap:nowrap;justify-content:left;margin:0 20%}.insta .me{border-radius:50%;height:150px;width:150px;margin:40px 60px 40px 40px}
