@@ -10,20 +10,12 @@ function showMenu() {
   }
 }
 
-/* add 'active' class to selected navbar item */
 $(document).ready(function() {
+  /* 'active' class navbar */
   var pathname = window.location.pathname;
   $('#menu > li > a[href="' + pathname + '"]').parent().addClass('active');
+  /* insta photos counts */
+  var instaCount = $('.photo').length
+  $('.posts').text(instaCount);
+  console.log(instaCount);
 })
-
-
-
-
-/* Fix the below */
-
-/* Insta Image Count */
-// function myFunction() {
-var nodelist = document.getElementsByClassName("insta-img").length;
-console.log(nodelist);
-// document.getElementById("demo").innerHTML = nodelist;
-// }

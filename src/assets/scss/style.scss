@@ -13,7 +13,6 @@ $dark-purple: #1b1423;
 $light-purple: #674497;
 $profile-yellow: #eeda93;
 $top-brown: #f7f5f6;
-$instagram-blue: #5782C6;
 $line: #bdbdbd;
 $insta-blue: #3897f0;
 
@@ -75,7 +74,7 @@ $insta-blue: #3897f0;
       height: 50px;
     }
     .active {
-      background-color: $light-purple;
+      background-color: $insta-blue;
     }
   }
   a {
@@ -86,10 +85,7 @@ $insta-blue: #3897f0;
     transition: 0.3s background-color;
   }
   a:hover {
-    background-color: $light-purple;
-  }
-  a.active {
-    background-color: $light-purple;
+    background-color: $insta-blue
   }
 }
 
@@ -205,7 +201,7 @@ $insta-blue: #3897f0;
 }
 
 /* Media Queries */
-@media (max-width: 425px) {
+@media (max-width: 480px) {
   .insta {
     .title {
       display: table-cell;
