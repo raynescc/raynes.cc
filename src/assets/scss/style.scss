@@ -202,6 +202,13 @@ $insta-blue: #3897f0;
 }
 
 /* Media Queries */
+@media (max-width: 425px) {
+  .insta {
+    .counts {
+      display: none;
+    }
+  }
+}
 @media (max-width: 800px) {
   .links {
     display: none;
