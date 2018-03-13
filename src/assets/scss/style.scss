@@ -204,6 +204,16 @@ $insta-blue: #3897f0;
 /* Media Queries */
 @media (max-width: 425px) {
   .insta {
+    .title {
+      display: table-cell;
+      button {
+        width: 85%;
+        margin: 10px 0px 0px 0px;
+      }
+    }
+    .bio {
+      display: none;
+    }
     .counts {
       display: none;
     }
