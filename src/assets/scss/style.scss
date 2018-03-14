@@ -7,13 +7,8 @@ $Montserrat: 'Montserrat';
 $text: #363636;
 $white: #fff;
 $link-blue: #5782c6;
-$tag-green: #7ec967;
-$tag-red: #c7014c;
 $dark-purple: #1b1423;
 $light-purple: #674497;
-$profile-yellow: #eeda93;
-$top-brown: #f7f5f6;
-$line: #bdbdbd;
 $insta-blue: #3897f0;
 
 /* Body */
@@ -91,21 +86,8 @@ $insta-blue: #3897f0;
 
 /* Footer - Common */
 .footer {
-  color: $white;
-  font-family: $karla;
-  font-size: 14px;
   text-align: center;
-  line-height: 60px;
-  a {
-    color: $white;
-    text-decoration: underline;
-  }
-  a:hover {
-    text-decoration: none;
-  }
-  background-color: $dark-purple;
-  height: 60px;
-  width: 100%;
+  margin: 40px;
 }
 
 /* Photos Page */
@@ -189,15 +171,6 @@ $insta-blue: #3897f0;
     font-family: $karla;
     font-size: 18px;
   }
-}
-.side-panel {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-    img {
-      width: 200px;
-      margin: 10px;
-    }
 }
 
 /* Media Queries */
