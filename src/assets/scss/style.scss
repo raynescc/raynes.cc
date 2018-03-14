@@ -1,4 +1,4 @@
-/* Fonts & Colors */
+/* Fonts + Colors */
 @import url('https://fonts.googleapis.com/css?family=Karla:400,700');
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100');
 $karla: 'Karla';
@@ -10,6 +10,7 @@ $link-blue: #5782c6;
 $dark-purple: #1b1423;
 $light-purple: #674497;
 $insta-blue: #3897f0;
+$resume-background: rgba(235,233,249,1);
 
 /* Body */
 * {
@@ -17,10 +18,13 @@ $insta-blue: #3897f0;
   h1,
   h2,
   h3,
+  h4,
+  h5,
+  ul,
   p {
     font-family: $karla;
     color: $dark-purple;
-    text-align: center;
+    //text-align: center;
     margin: auto;
   }
   h1 {
@@ -159,7 +163,36 @@ $insta-blue: #3897f0;
   }
 }
 
-/* About Me - About */
+/* Resume - Page */
+.linkedin {
+    margin: 0 20%;
+  .background {
+    display: grid;
+    grid-template-columns: 1fr;
+    background: $resume-background;
+    margin-top: 40px;
+    height: 200px;
+    .avatar {
+      border-radius: 50%;
+      border: 4px solid $white;
+      height: 150px;
+      width: 150px;
+      margin: 110px auto 0px auto;
+    }
+  }
+  .title-section {
+    border: 1px solid grey;
+    height: 150px;
+    padding-top: 80px;
+  }
+  .summary {
+    h1, p {
+      text-align: left;
+    }
+  }
+}
+
+/* About - Page */
 .about-me {
   width: 40%;
   h1 {

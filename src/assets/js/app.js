@@ -21,7 +21,7 @@ $(document).ready(function() {
   var pathname = window.location.pathname;
   $('#menu > li > a[href="' + pathname + '"]').parent().addClass('active');
 
-  /* insta photos counts */
+  /* insta photos count */
   var instaCount = $('.photo').length
   $('.posts').text(instaCount);
 
