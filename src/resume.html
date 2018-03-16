@@ -22,21 +22,54 @@ Have a question for me? Tweet me: @raynesio
 	<link href="img/favicon.png" rel="icon" sizes="32x32" type="image/png">
 	<link href='css/style.css' media='screen' rel='stylesheet' type='text/css'>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
 	<script type="text/javascript" src="/js/app.js"></script>
 </head>
 
 <body>
 
-	<div id="nav"></div>
+	<!-- Nav -->
+	<button onclick="showMenu()" class="show-menu">Menu</button>
+	<div class="nav" id="nav" style="display: none;">
+		<ul id="menu">
+			<li><a href="/">About</a></li>
+			<li><a href="/blog.html">Blog</a></li>
+			<li><a href="/projects.html">Projects</a></li>
+			<li><a href="/photos.html">Photos</a></li>
+			<li><a href="/resume.html">Resume</a></li>
+			<li><a href="/contact.html">Contact</a></li>
+		</ul>
+	</div>
 
-	<div class="linkedin">
-		<div class="background">
+	<!-- LinkedIn -->
+	<div class="cover">
+		<!-- <img class="avatar" src="/img/gallery/family.jpg"> -->
+		<div class="top-card">
+			<div class="seg1">
+				<img class="photo" src="/img/me.jpg">
+			</div>
+			<div class="seg2">
+				<h2>Andrew Raynes</h2>
+				<h3>Software Engineer at Lloyds Bank</h3>
+				<h4>London, United Kingdom | Internet</h4>
+			</div>
+			<div class="seg3">
+				<a class="download" href=""><i class="fa fa-download"></i> Resume</a>
+			</div>
+		</div>
+	</div>
+	<div class="summary">
+		<h1>Summary</h1>
+		<p>Some text here about me.</p>
+	</div>
+
+	<!-- <div class="background">
 			<img class="avatar" src="/img/gallery/family.jpg">
 		</div>
 		<div class="title-section">
 			<h1>Andrew Raynes</h1>
-			<h2>Software Engineer at Lloyds Bank</h2>
-			<h3>London, United Kingdom</h3>
+			<h3>Software Engineer at Lloyds Bank</h3>
+			<h4>London, United Kingdom</h4>
 		</div>
 		<div class="summary">
 			<h1>Summary</h1>
@@ -54,13 +87,12 @@ Have a question for me? Tweet me: @raynesio
 				<li>Accessibility: Jaws, NVDA, VoiceOver, TalkBack</li>
 			</ul>
 			</p>
-		</div>
-	</div>
+		</div> -->
 
 
 	<!-- Footer -->
 	<div class="footer">
-	  <p>© <span class="copyright"></span> Andrew Raynes</p>
+		<p>© <span class="copyright"></span> Andrew Raynes</p>
 	</div>
 
 </body>

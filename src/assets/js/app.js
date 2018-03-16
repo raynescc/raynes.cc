@@ -1,11 +1,5 @@
 //TODO: MAKE NAVBAR ANIMATED ON TOGGLE.
 
-/* load header/footer templates */
-$(function(){
-  $("#nav").load("nav.html");
-  $("#footer").load("footer.html");
-});
-
 /* toggle navbar  */
 function showMenu() {
   var menu = document.getElementById("nav");
