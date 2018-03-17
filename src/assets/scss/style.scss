@@ -254,13 +254,18 @@ $linkedin-grey: rgba(0,0,0,0.6);
     }
     h5 {
       color: $linkedin-grey;
+      margin-bottom: 10px;
     }
 
   }
   .role-logo {
+    width: 40px;
     height: 40px;
-    margin-bottom: 20px;
+    margin: 45px 40px 20px 0px;
   }
+}
+.role-info {
+  margin-left: 80px;
 }
 
 .education {
