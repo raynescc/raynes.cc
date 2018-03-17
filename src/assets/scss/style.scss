@@ -209,9 +209,10 @@ $linkedin-grey: rgba(0,0,0,0.6);
 
     .section1 {
       .photo {
-        height: 200px;
-        width: 200px;
-        margin: 20px 20px 20px 0px;
+        height: 150px;
+        width: 150px;
+        margin: 0px 20px 0px 0px;
+        border-radius: 50%;
       }
     }
 
@@ -241,33 +242,25 @@ $linkedin-grey: rgba(0,0,0,0.6);
 .summary {
 }
 
-.experience {
-  .top {
-    margin-top: 30px;
-  }
-  .group {
+
+  .role-group {
     display: flex;
-  .role {
-    width: 85%;
+  .role-details {
+    margin-top: 40px;
+    width: 90%;
     h2, h4, h5 {
       font-weight: 400;
       line-height: 1.5;
     }
     h5 {
       color: $linkedin-grey;
-      margin-bottom: 20px;
     }
 
   }
-  .logo {
+  .role-logo {
     height: 40px;
+    margin-bottom: 20px;
   }
-}
-.role-info {
-  ul {
-    margin-bottom: 40px;
-  }
-}
 }
 
 .education {
