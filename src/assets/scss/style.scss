@@ -200,6 +200,11 @@ $linkedin-grey: rgba(0,0,0,0.6);
 }
 
 .cover {
+  img {
+    object-fit: cover;
+  }
+}
+.profile {
   position: relative;
 
   .profile-head {
