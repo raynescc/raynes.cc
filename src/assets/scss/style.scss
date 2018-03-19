@@ -201,7 +201,8 @@ $linkedin-grey: rgba(0,0,0,0.6);
 
 .cover {
   img {
-    object-fit: cover;
+    width:100%;
+   height: 100%;
   }
 }
 .profile {
@@ -300,10 +301,7 @@ $linkedin-grey: rgba(0,0,0,0.6);
       }
 }
 }
-.volunteering {}
-.accomplishments {
 
-}
 /* About - Page */
 .about-me {
   width: 40%;
