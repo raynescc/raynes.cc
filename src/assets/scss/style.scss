@@ -7,7 +7,8 @@ $white: #fff;
 $text: #1b1423;
 $insta-blue: #3897f0;
 $resume-background: rgba(235,233,249,1);
-$linkedin-grey: rgba(0,0,0,0.6);
+$dark-grey: #63717b;
+$light-grey: #9fadb7;
 /* Body */
 * {
   margin: auto 0;
@@ -191,7 +192,10 @@ $linkedin-grey: rgba(0,0,0,0.6);
     opacity: 0.6;
   }
 }
-/* Resume - Page */
+
+/* Resume Page */
+
+// Card Template
 .card {
   justify-content: left;
   margin: 20px 20%;
@@ -199,55 +203,40 @@ $linkedin-grey: rgba(0,0,0,0.6);
   padding: 40px;
 }
 
+// Header Cover Image
 .cover {
   img {
     width:100%;
    height: 100%;
   }
 }
-.profile {
-  position: relative;
-
-  .profile-head {
-    position: relative;
-    display: flex;
-    flex-wrap: nowrap;
-
     .section1 {
-      .photo {
-        height: 150px;
-        width: 150px;
-        margin: 0px 20px 0px 0px;
-        border-radius: 50%;
+      img {
+        height: 200px;
+        width: 200px;
+        border-radius: 100%;
+        display: block;
+        margin: -100px auto 0px auto;
+        border: 4px solid black;
       }
-    }
 
-    .section2 {
-      margin-bottom: 100px;
-
-      h2 {
+      h1 {
+        text-align: center;
         font-weight: 400;
       }
 
-      h4 {
-        color: $linkedin-grey;
+      h3 {
+        text-align: center;
+        color: $dark-grey;
+        font-weight: 400;
+      }
+
+      p {
+        text-align: center;
+        color: $light-grey;
         font-weight: 400;
       }
     }
-
-    .section3 {
-      margin-bottom: 148px;
-
-      .download {
-        color: $linkedin-grey;
-      }
-    }
-  }
-}
-
-.summary {
-}
-
 
   .role-group {
     display: flex;
@@ -259,7 +248,7 @@ $linkedin-grey: rgba(0,0,0,0.6);
       line-height: 1.5;
     }
     h5 {
-      color: $linkedin-grey;
+      color: $dark-grey;
       margin-bottom: 10px;
     }
 
@@ -302,21 +291,8 @@ $linkedin-grey: rgba(0,0,0,0.6);
 }
 }
 
-/* About - Page */
-.about-me {
-  width: 40%;
 
-  h1 {
-    text-align: left;
-    font-weight: 400;
-  }
 
-  p {
-    text-align: left;
-    font-family: $karla;
-    font-size: 18px;
-  }
-}
 /* Media Queries */
 @media (max-width: 480px) {
   .insta {
