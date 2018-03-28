@@ -1,4 +1,4 @@
-/* Fonts + Colors */
+/* ----------  Body ----------  */
 @import url('https://fonts.googleapis.com/css?family=Karla:400,700');
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100');
 $karla: 'Karla';
@@ -9,7 +9,7 @@ $insta-blue: #3897f0;
 $resume-background: rgba(235,233,249,1);
 $dark-grey: #63717b;
 $light-grey: #9fadb7;
-/* Body */
+
 * {
   margin: auto 0;
 
@@ -52,7 +52,11 @@ $light-grey: #9fadb7;
     outline: 0;
   }
 }
-/* Nav Bar - Common */
+/* ----------  Body End ----------  */
+
+
+
+/* ----------  Nav Bar ----------  */
 .show-menu {
   font-family: $karla;
   font-size: 16px;
@@ -109,12 +113,20 @@ $light-grey: #9fadb7;
     background-color: $insta-blue;
   }
 }
-/* Footer - Common */
+/* ----------  Nav Bar End ----------  */
+
+
+
+/* ----------  Footer ----------  */
 .footer {
   text-align: center;
   margin: 40px;
 }
-/* Photos Page */
+/* ----------  Footer End ----------  */
+
+
+
+/* ---------- Photos Page ---------- */
 .insta {
   display: flex;
   flex-wrap: nowrap;
@@ -192,10 +204,12 @@ $light-grey: #9fadb7;
     opacity: 0.6;
   }
 }
+/* ---------- Photos Page End ---------- */
 
-/* Resume Page */
 
-// Card Template
+
+/* ---------- Resume Page ---------- */
+
 .card {
   justify-content: left;
   margin: 20px 20%;
@@ -203,7 +217,6 @@ $light-grey: #9fadb7;
   padding: 40px;
 }
 
-// Header Cover Image
 .cover {
   img {
     width:100%;
@@ -214,10 +227,11 @@ $light-grey: #9fadb7;
       img {
         height: 200px;
         width: 200px;
+        position: relative;
         border-radius: 100%;
         display: block;
         margin: -100px auto 0px auto;
-        border: 4px solid black;
+        border: 4px solid $white;
       }
 
       h1 {
@@ -290,10 +304,11 @@ $light-grey: #9fadb7;
       }
 }
 }
+/* ---------- Resume Page End ---------- */
 
 
 
-/* Media Queries */
+/* ---------- Media Queries ---------- */
 @media (max-width: 480px) {
   .insta {
     .title {
@@ -364,3 +379,4 @@ $light-grey: #9fadb7;
     }
   }
 }
+/* ---------- Media Queries End ---------- */
