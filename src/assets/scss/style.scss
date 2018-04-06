@@ -204,11 +204,8 @@ $resume-background: rgba(235,233,249,1);
 }
 
 .cover {
-  img {
-    width: 100%;
-    height: 100%;
-    height: 300px;
-  }
+  background-image: url("https://static.sumry.me/proxy?width=1152&url=https%3A%2F%2Fsumry.s3.amazonaws.com%2Fuc%2F46d287261061e54e0bc041a19a6fb985_tfss-c3656506-d024-4550-89a5-9ade31637513-31927tb4d74_large_large.jpg");
+  height: 200px;
 }
 
 .photo-me {

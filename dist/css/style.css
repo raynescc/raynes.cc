@@ -13,7 +13,7 @@
 .insta .counts p{margin-left:0;margin-right:40px;text-align:left;color:#1b1423}.insta .counts p span{font-weight:bold}
 .insta .bio{text-align:left}.gallery{display:grid;grid-template-columns:repeat(3,1fr);grid-gap:20px;margin:0 20%}
 .gallery img{max-width:100%}.card{justify-content:left;margin:20px 20%;box-shadow:0 0 0 1px rgba(0,0,0,0.1),0 2px 3px rgba(0,0,0,0.2);padding:40px}
-.cover img{width:100%;height:100%;height:300px}.photo-me img{height:180px;width:180px;position:relative;border-radius:100%;display:block;margin:-100px auto 0;border:4px solid #fff;max-width:560px}
+.cover{background-image:url("https://static.sumry.me/proxy?width=1152&url=https%3A%2F%2Fsumry.s3.amazonaws.com%2Fuc%2F46d287261061e54e0bc041a19a6fb985_tfss-c3656506-d024-4550-89a5-9ade31637513-31927tb4d74_large_large.jpg");height:200px}.photo-me img{height:180px;width:180px;position:relative;border-radius:100%;display:block;margin:-100px auto 0;border:4px solid #fff;max-width:560px}
 .photo-me .cv-download{display:table-cell}.photo-me .name-info{text-align:center}
 .photo-me .name-info h1{font-weight:400}.photo-me .name-info h3{color:#63717b;font-weight:400}
 .photo-me .name-info p{color:#9fadb7;font-weight:400}.role-group{display:flex}.role-group .role-details{margin-top:40px;width:90%}
