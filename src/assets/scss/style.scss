@@ -8,6 +8,7 @@ $text: #1b1423;
 $insta-blue: #3897f0;
 $dark-grey: #63717b;
 $light-grey: #9fadb7;
+$cover: #fc5b7a;
 $resume-background: rgba(235,233,249,1);
 
 * {
@@ -22,7 +23,8 @@ $resume-background: rgba(235,233,249,1);
   i,
   li,
   p,
-  ul {
+  ul,
+  span {
     font-family: $karla;
     color: $text;
     margin: auto;
@@ -204,8 +206,17 @@ $resume-background: rgba(235,233,249,1);
 }
 
 .cover {
-  background-image: url("https://static.sumry.me/proxy?width=1152&url=https%3A%2F%2Fsumry.s3.amazonaws.com%2Fuc%2F46d287261061e54e0bc041a19a6fb985_tfss-c3656506-d024-4550-89a5-9ade31637513-31927tb4d74_large_large.jpg");
-  height: 200px;
+  background-color: $cover;
+  height: 280px;
+}
+
+.location {
+  margin: 25px 0px;
+  span {
+  border: 2px solid;
+  padding: 8px;
+  border-radius: 4px;
+  }
 }
 
 .photo-me {
