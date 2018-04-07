@@ -200,9 +200,16 @@ $resume-background: rgba(235,233,249,1);
 /* ---------- Resume Page ---------- */
 .card {
   justify-content: left;
-  margin: 20px 20%;
+  // margin: 20px 20%;
   box-shadow: 0 0 0 1px rgba(0,0,0,0.1), 0 2px 3px rgba(0,0,0,0.2);
-  padding: 40px;
+  padding: 50px 200px 50px 200px;
+}
+
+.card-dark {
+  background-color: $text;
+  h2, h4, p, li {
+    color: $white !important;
+  }
 }
 
 .cover {
@@ -210,7 +217,16 @@ $resume-background: rgba(235,233,249,1);
   height: 280px;
 }
 
-.location {
+.outline {
+  margin: 25px 0px;
+  span {
+  border: 2px solid;
+  padding: 8px;
+  border-radius: 20px;
+  }
+}
+
+.button {
   margin: 25px 0px;
   span {
   border: 2px solid;
@@ -237,6 +253,7 @@ $resume-background: rgba(235,233,249,1);
 
   .name-info {
     text-align: center;
+    margin: 0 20%;
 
     h1 {
       font-weight: 400;
