@@ -10,6 +10,7 @@ $dark-grey: #63717b;
 $light-grey: #9fadb7;
 $cover: #fc5b7a;
 $resume-background: rgba(235,233,249,1);
+$cream: #f8f7f7;
 
 * {
   margin: auto 0;
@@ -225,6 +226,10 @@ $resume-background: rgba(235,233,249,1);
   i {
     color: $white;
   }
+}
+
+.card-light {
+  background-color: $cream;
 }
 
 .cover {
@@ -452,6 +457,10 @@ $resume-background: rgba(235,233,249,1);
     margin: 0 5%;
   }
   .card-dark {
+    padding: 50px 5%;
+    margin: 0;
+  }
+  .card-light {
     padding: 50px 5%;
     margin: 0;
   }
