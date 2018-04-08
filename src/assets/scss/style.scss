@@ -23,8 +23,8 @@ $resume-background: rgba(235,233,249,1);
   i,
   li,
   p,
-  ul,
-  span {
+  span,
+  ul {
     font-family: $karla;
     color: $text;
     margin: auto;
@@ -201,37 +201,56 @@ $resume-background: rgba(235,233,249,1);
 .card {
   justify-content: left;
   // margin: 20px 20%;
-  box-shadow: 0 0 0 1px rgba(0,0,0,0.1), 0 2px 3px rgba(0,0,0,0.2);
-  padding: 50px 300px 50px 300px;
+  // box-shadow: 0 0 0 1px rgba(0,0,0,0.1), 0 2px 3px rgba(0,0,0,0.2);
+  padding: 50px 300px;
+
+  h3 {
+    &:hover {
+      color: $insta-blue;
+      cursor: pointer;
+    }
+  }
 }
 
 .card-dark {
   background-color: $text;
-  h2, h4, p, li {
+
+  h2,
+  h4,
+  li,
+  p {
     color: $white !important;
+  }
+
+  i {
+    color: $white;
   }
 }
 
 .cover {
-  background-color: $cover;
+  background-color: $text;
   height: 280px;
 }
 
 .location {
-  margin: 25px 0px;
+  margin: 25px 0;
+
   i {
     color: $dark-grey;
   }
+
   span {
-  color: $dark-grey;
-  border: 2px solid;
-  padding: 8px;
-  border-radius: 4px;
+    color: $dark-grey;
+    border: 2px solid;
+    padding: 8px;
+    border-radius: 4px;
   }
+
   &:hover {
     span {
-    color: $insta-blue;
-        }
+      color: $insta-blue;
+    }
+
     i {
       color: $insta-blue;
     }
@@ -250,31 +269,33 @@ $resume-background: rgba(235,233,249,1);
     max-width: 560px;
   }
 
-
   .name-info {
     text-align: center;
     margin: 0 30%;
 
     h1 {
       font-weight: 400;
-      margin: 10px 0 0px 0px;
+      margin: 10px 0 0;
     }
 
     h3 {
       color: $dark-grey;
       font-weight: 400;
-      margin: 0px 0 10px 0px;
+      margin: 0 0 10px;
     }
 
     p {
       color: $light-grey;
-      margin: 10px 0 15px 0px;
+      margin: 10px 0 15px;
     }
+
     .social {
       font-size: 24px;
+
       i {
         margin: 4px;
       }
+
       i:hover {
         color: $insta-blue;
       }
@@ -312,8 +333,6 @@ $resume-background: rgba(235,233,249,1);
 .role-info {
   margin-left: 80px;
 }
-
-.education {}
 
 .skills {
   ul {

@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Karla:400,700");@import url("https://fonts.googleapis.com/css?family=Montserrat:100");*{margin:auto 0}
-* a,* h1,* h2,* h3,* h4,* h5,* i,* li,* p,* ul,* span{font-family:"Karla";color:#1b1423;margin:auto}
+* a,* h1,* h2,* h3,* h4,* h5,* i,* li,* p,* span,* ul{font-family:"Karla";color:#1b1423;margin:auto}
 * h1{font-size:32px}* h2{font-size:28px}* h3{font-size:20px}* h4{font-size:16px}* a{text-decoration:none}
 * button{outline:0}.show-menu{font-family:"Karla";font-size:16px;text-decoration:none;text-transform:uppercase;color:#fff;background:#1b1423;font-weight:700;text-align:center;display:none;width:100%;height:50px;border:0;cursor:pointer}
 .show-menu:focus{outline:0}.nav ul{list-style:none;background-color:#1b1423;text-align:center;padding:0;margin:0}
@@ -12,13 +12,13 @@
 .insta .counts{display:flex;flex-wrap:nowrap;font-family:"Karla";text-align:left;margin-bottom:10px}
 .insta .counts p{margin-left:0;margin-right:40px;text-align:left;color:#1b1423}.insta .counts p span{font-weight:bold}
 .insta .bio{text-align:left}.gallery{display:grid;grid-template-columns:repeat(3,1fr);grid-gap:20px;margin:0 20%}
-.gallery img{max-width:100%}.card{justify-content:left;box-shadow:0 0 0 1px rgba(0,0,0,0.1),0 2px 3px rgba(0,0,0,0.2);padding:50px 300px 50px 300px}
-.card-dark{background-color:#1b1423}.card-dark h2,.card-dark h4,.card-dark p,.card-dark li{color:#fff !important}
-.cover{background-color:#fc5b7a;height:280px}.location{margin:25px 0}.location i{color:#63717b}
-.location span{color:#63717b;border:2px solid;padding:8px;border-radius:4px}.location:hover span{color:#3897f0}
-.location:hover i{color:#3897f0}.photo-me img{height:180px;width:180px;position:relative;border-radius:100%;display:block;margin:-100px auto 0;border:4px solid #fff;max-width:560px}
-.photo-me .name-info{text-align:center;margin:0 30%}.photo-me .name-info h1{font-weight:400;margin:10px 0 0 0}
-.photo-me .name-info h3{color:#63717b;font-weight:400;margin:0 0 10px 0}.photo-me .name-info p{color:#9fadb7;margin:10px 0 15px 0}
+.gallery img{max-width:100%}.card{justify-content:left;padding:50px 300px}.card h3:hover{color:#3897f0;cursor:pointer}
+.card-dark{background-color:#1b1423}.card-dark h2,.card-dark h4,.card-dark li,.card-dark p{color:#fff !important}
+.card-dark i{color:#fff}.cover{background-color:#1b1423;height:280px}.location{margin:25px 0}
+.location i{color:#63717b}.location span{color:#63717b;border:2px solid;padding:8px;border-radius:4px}
+.location:hover span{color:#3897f0}.location:hover i{color:#3897f0}.photo-me img{height:180px;width:180px;position:relative;border-radius:100%;display:block;margin:-100px auto 0;border:4px solid #fff;max-width:560px}
+.photo-me .name-info{text-align:center;margin:0 30%}.photo-me .name-info h1{font-weight:400;margin:10px 0 0}
+.photo-me .name-info h3{color:#63717b;font-weight:400;margin:0 0 10px}.photo-me .name-info p{color:#9fadb7;margin:10px 0 15px}
 .photo-me .name-info .social{font-size:24px}.photo-me .name-info .social i{margin:4px}
 .photo-me .name-info .social i:hover{color:#3897f0}.role-group{display:flex}.role-group .role-details{margin-top:40px;width:90%}
 .role-group .role-details h2,.role-group .role-details h4,.role-group .role-details h5{font-weight:400;line-height:1.5}
