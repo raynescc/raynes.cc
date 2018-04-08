@@ -217,21 +217,24 @@ $resume-background: rgba(235,233,249,1);
   height: 280px;
 }
 
-.outline {
+.location {
   margin: 25px 0px;
-  span {
-  border: 2px solid;
-  padding: 8px;
-  border-radius: 20px;
+  i {
+    color: $dark-grey;
   }
-}
-
-.button {
-  margin: 25px 0px;
   span {
+  color: $dark-grey;
   border: 2px solid;
   padding: 8px;
   border-radius: 4px;
+  }
+  &:hover {
+    span {
+    color: $insta-blue;
+        }
+    i {
+      color: $insta-blue;
+    }
   }
 }
 
@@ -247,9 +250,6 @@ $resume-background: rgba(235,233,249,1);
     max-width: 560px;
   }
 
-  .cv-download {
-    display: table-cell;
-  }
 
   .name-info {
     text-align: center;
@@ -269,6 +269,15 @@ $resume-background: rgba(235,233,249,1);
     p {
       color: $light-grey;
       margin: 10px 0 15px 0px;
+    }
+    .social {
+      font-size: 24px;
+      i {
+        margin: 4px;
+      }
+      i:hover {
+        color: $insta-blue;
+      }
     }
   }
 }
