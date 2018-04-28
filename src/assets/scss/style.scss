@@ -378,6 +378,11 @@ $cream: #f8f7f7;
   }
 }
 /* ---------- Projects Page End ---------- */
+/* Twitter Page */
+.twitter-feed {
+  margin-top: 60px;
+  text-align: center;
+}
 /* ---------- Media Queries ---------- */
 @media (max-width: 480px) {
   .insta {
@@ -403,6 +408,7 @@ $cream: #f8f7f7;
   .links {
     display: none;
   }
+
   .gallery {
     grid-gap: 5px;
     margin: 0;
@@ -411,6 +417,7 @@ $cream: #f8f7f7;
   .insta {
     margin: 0;
   }
+
   .name-info {
     margin: 0 10%;
   }
@@ -453,22 +460,23 @@ $cream: #f8f7f7;
 }
 @media (max-width: 1100px) {
   .card {
-    padding: 50px 0px;
+    padding: 50px 0;
     margin: 0 5%;
   }
+
   .card-dark {
     padding: 50px 5%;
     margin: 0;
   }
+
   .card-light {
     padding: 50px 5%;
     margin: 0;
-
   }
+
   .photo-me .name-info {
     text-align: center;
-    margin: 0px 10%;
-}
-
+    margin: 0 10%;
+  }
 }
 /* ---------- Media Queries End ---------- */
