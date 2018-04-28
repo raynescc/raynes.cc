@@ -8,21 +8,21 @@ const sass = require('gulp-sass');
 const uglifycss = require('gulp-uglifycss');
 const gls = require('gulp-live-server');
 
-// Minify all .html files and move to dist
+// Minify all .html files and move to docs
 gulp.task('html', () => {
   gulp.src('./src/*.html')
     .pipe(htmlmin({
       collapseWhitespace: true
     }))
-    .pipe(gulp.dest('./dist/'));
+    .pipe(gulp.dest('./docs/'));
 });
 
-// Minify all .js files and move to dist
+// Minify all .js files and move to docs
 gulp.task('js', (cb) => {
   pump([
     gulp.src('./src/assets/js/*.js'),
     uglify(),
-    gulp.dest('./dist/js')
+    gulp.dest('./docs/js')
   ], cb)
 });
 
@@ -34,14 +34,14 @@ gulp.task('sass', () => {
       "maxLineLen": 80,
       "uglyComments": true
     }))
-    .pipe(gulp.dest('./dist/css'))
+    .pipe(gulp.dest('./docs/css'))
 });
 
 // Server
 gulp.task('server', () => {
-  const server = gls.static('./dist', 3000);
+  const server = gls.static('./docs', 3000);
   server.start();
-  gulp.watch(['./dist/css/*.css', './dist/js/*.js', './dist/*.html'], (file) => {
+  gulp.watch(['./docs/css/*.css', './docs/js/*.js', './docs/*.html'], (file) => {
     server.notify.apply(server, [file]);
     console.log('Running on localhost:3000')
   });

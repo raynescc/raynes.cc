@@ -10,7 +10,7 @@ Curious to know more about me? [Click here](https://raynes.io) 👈 and take a l
 
   ```
   git clone https://github.com/raynesio/raynes.io.git
-  cd ajuk.co
+  cd raynes.io
   npm install
   gulp
   ```
