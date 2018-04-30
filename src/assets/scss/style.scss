@@ -124,7 +124,8 @@ $cream: #f8f7f7;
 .image-content {
   position: relative;
   text-align: left;
-  
+  z-index: -1;
+
   img {
     width: 100%;
     opacity: 0.2;
