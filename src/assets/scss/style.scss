@@ -132,7 +132,7 @@ $cream: #f8f7f7;
   }
 
   p {
-    font-size: 22px;
+    font-size: 20px;
     margin-bottom: 20px;
   }
 
@@ -433,6 +433,13 @@ $cream: #f8f7f7;
       display: none;
     }
   }
+  .centered-text {
+    left: 37%;
+  }
+  .left-footer {
+    margin: 20px 20px;
+    text-align: left;
+  }
 }
 @media (max-width: 800px) {
   .links {
@@ -472,6 +479,14 @@ $cream: #f8f7f7;
 
   .show-menu {
     display: block;
+  }
+  .image-content {
+    h1 {
+      font-size: 30px;
+    }
+    p {
+      font-size: 18px;
+    }
   }
 }
 @media (min-width: 821px) {
