@@ -1,4 +1,4 @@
-//TODO: MAKE NAVBAR ANIMATED ON TOGGLE.
+//TODO: MAKE NAVBAR ANIMATED ON TOGGLE and animation between pages
 
 /* toggle navbar  */
 function showMenu() {
