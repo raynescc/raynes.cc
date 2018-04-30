@@ -6,9 +6,10 @@
 .nav ul li{display:inline-block;margin-right:-4px;width:140px;font-weight:700;font-family:"Karla";font-size:16px;line-height:50px;height:50px}
 .nav ul .active{background-color:#3897f0}.nav a{text-decoration:none;text-transform:uppercase;color:#fff;display:block;transition:.3s background-color}
 .nav a:hover{background-color:#3897f0}.footer{text-align:center;margin:40px}.image-content{position:relative;text-align:left}
-.image-content h1{font-size:56px;margin-bottom:30px;color:#3897f0}.image-content p{font-size:20px;margin-bottom:20px}
-.image-content a{text-decoration:underline;color:#3897f0}.image-content .age-blink{font-size:18px;animation:blinker 1s linear infinite}
-@keyframes blinker{50%{opacity:0}}img{width:100%;opacity:.2}.centered-text{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);position:fixed;color:#1b1423}
+.image-content img{width:100%;opacity:.2}.image-content h1{font-size:56px;margin-bottom:30px;color:#3897f0}
+.image-content p{font-size:20px;margin-bottom:20px}.image-content a{text-decoration:underline;color:#3897f0}
+.image-content .age-blink{font-size:18px;animation:blinker 1s linear infinite}@keyframes blinker{50%{opacity:0}
+}.centered-text{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);position:fixed;color:#1b1423}
 .insta{display:flex;flex-wrap:nowrap;justify-content:left;margin:0 20%}.insta .me{border-radius:50%;height:150px;width:150px;margin:40px 60px 40px 40px}
 .insta .title{display:flex;flex-wrap:nowrap;text-align:left;margin-bottom:15px}.insta .title h1{font-family:"Montserrat";color:#1b1423;margin:0 15px 0 0}
 .insta .title button{background-color:#3897f0;font-size:14px;color:#fff;border:0;height:24px;border:0;margin:8px;padding:0 15px;border-radius:3px;cursor:pointer}

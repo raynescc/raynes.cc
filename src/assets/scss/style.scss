@@ -124,6 +124,11 @@ $cream: #f8f7f7;
 .image-content {
   position: relative;
   text-align: left;
+  
+  img {
+    width: 100%;
+    opacity: 0.2;
+  }
 
   h1 {
     font-size: 56px;
@@ -150,11 +155,6 @@ $cream: #f8f7f7;
     }
   }
 }
-
-  img {
-    width: 100%;
-    opacity: 0.2;
-  }
 
 .centered-text {
   position: absolute;
