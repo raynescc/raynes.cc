@@ -121,50 +121,43 @@ $cream: #f8f7f7;
 }
 /* ----------  Footer End ----------  */
 /* ----------  Home Page ----------  */
-.image-content {
-  position: relative;
-  text-align: left;
-  z-index: -1;
-
-  img {
-    width: 100%;
-    opacity: 0.2;
+.main-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  .side-image {
+    width: 50%;
+    height: 100vh;
+    background-image: url(../img/full.jpg);
+    background-position: center center;
+    background-size: cover;
   }
-
-  h1 {
-    font-size: 56px;
-    margin-bottom: 30px;
-    color: $insta-blue;
-  }
-
-  p {
-    font-size: 20px;
-    margin-bottom: 20px;
-  }
-
-  a {
-    text-decoration: underline;
-    color: $insta-blue;
-  }
-  .age-blink {
-    font-size: 18px;
-    animation: blinker 1s linear infinite;
-  }
-  @keyframes blinker {
-    50% {
-      opacity: 0;
-    }
+  .about-text {
+    width: 50%;
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    overflow: auto;
   }
 }
-
-.centered-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  position: fixed;
-  color: $text;
-}
+// .age-blink {
+//   font-size: 18px;
+//   animation: blinker 1s linear infinite;
+// }
+// @keyframes blinker {
+//   50% {
+//     opacity: 0;
+//   }
+// }
 /* ---------- Home Page End ---------- */
 /* ---------- Photos Page ---------- */
 .insta {
@@ -434,11 +427,13 @@ $cream: #f8f7f7;
       display: none;
     }
   }
+
   .centered-text {
     left: 37%;
   }
+
   .left-footer {
-    margin: 20px 20px;
+    margin: 20px;
     text-align: left;
   }
 }
@@ -481,10 +476,12 @@ $cream: #f8f7f7;
   .show-menu {
     display: block;
   }
+
   .image-content {
     h1 {
       font-size: 30px;
     }
+
     p {
       font-size: 18px;
     }
