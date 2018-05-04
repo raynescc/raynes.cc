@@ -16,8 +16,8 @@ $(document).ready(function() {
   $('#menu > li > a[href="' + pathname + '"]').parent().addClass('active');
 
   /* photo count */
-  var instaCount = $('.instaimg').length
-  $('.posts').text(instaCount);
+  // var instaCount = $('.instaimg').length
+  // $('.posts').text(instaCount);
 
   /* update copyright date */
   var today = new Date()
