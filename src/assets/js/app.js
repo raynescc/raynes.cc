@@ -15,12 +15,25 @@ $(document).ready(function() {
   var pathname = window.location.pathname;
   $('#menu > li > a[href="' + pathname + '"]').parent().addClass('active');
 
-  /* insta photos count */
-  var instaCount = $('.photo').length
+  /* photo count */
+  var instaCount = $('.instaimg').length
   $('.posts').text(instaCount);
 
   /* update copyright date */
   var today = new Date()
   var year = today.getFullYear()
   $('.copyright').text(year);
+
+  /* instagram feed */
+  var userFeed = new Instafeed({
+      get: 'user',
+      userId: '6345390265',
+      limit: 500,
+      resolution: 'standard_resolution',
+      accessToken: '6345390265.1677ed0.bd6241dd10504c7e9c901d5c2e1fec2c',
+      sortBy: 'most-recent',
+      template: '<div class="instaimg"><a href="{{image}}" title="{{caption}}" target="_blank"><img src="{{image}}" alt="{{caption}}" class="img-fluid"/></a></div>',
+  });
+
+  userFeed.run();
 })

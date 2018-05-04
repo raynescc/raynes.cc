@@ -223,7 +223,7 @@ $cream: #f8f7f7;
   }
 }
 
-.gallery {
+#instafeed {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
@@ -232,9 +232,9 @@ $cream: #f8f7f7;
   img {
     max-width: 100%;
   }
-  // img:hover {
-  //   opacity: 0.6;
-  // }
+  img:hover {
+    opacity: 0.7;
+  }
 }
 /* ---------- Photos Page End ---------- */
 /* ---------- Resume Page ---------- */
@@ -442,7 +442,7 @@ $cream: #f8f7f7;
     display: none;
   }
 
-  .gallery {
+  #instafeed {
     grid-gap: 5px;
     margin: 0;
   }
