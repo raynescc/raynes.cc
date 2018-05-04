@@ -14,8 +14,9 @@
 .insta .counts{display:flex;flex-wrap:nowrap;font-family:"Karla";text-align:left;margin-bottom:10px}
 .insta .counts p{margin-left:0;margin-right:40px;text-align:left;color:#1b1423}.insta .counts p span{font-weight:bold}
 .insta .bio{text-align:left}#instafeed{display:grid;grid-template-columns:repeat(3,1fr);grid-gap:20px;margin:0 20%}
-#instafeed img{max-width:100%}#instafeed img:hover{opacity:.7}.card{justify-content:left;padding:50px 300px}
-.card h3:hover{color:#3897f0;cursor:pointer}.card-dark{background-color:#1b1423}.card-dark h2,.card-dark h4,.card-dark li,.card-dark p{color:#fff !important}
+#instafeed img{max-width:100%}#instafeed img:hover{opacity:.7}.mfp-counter,.mfp-title{font-family:"Karla"}
+.card{justify-content:left;padding:50px 300px}.card h3:hover{color:#3897f0;cursor:pointer}
+.card-dark{background-color:#1b1423}.card-dark h2,.card-dark h4,.card-dark li,.card-dark p{color:#fff !important}
 .card-dark i{color:#fff}.card-light{background-color:#f8f7f7}.experience{padding-bottom:0}
 .cover{background-color:#1b1423;height:280px}.location{margin:25px 0 30px}.location i{color:#1b1423}
 .location span{color:#1b1423;border:2px solid;padding:8px;border-radius:4px}.location:hover span{color:#3897f0}
