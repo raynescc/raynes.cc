@@ -357,6 +357,7 @@ img.mfp-img {
   color: #F3F3F3;
   word-wrap: break-word;
   padding-right: 36px;
+  margin-right: 2px;
 }
 
 .mfp-image-holder .mfp-content {
@@ -419,6 +420,9 @@ img.mfp-img {
     text-align: center;
     padding: 0;
   }
+}
+.mfp-close {
+  display: none !important;
 }
 @media all and (max-width: 900px) {
   .mfp-arrow {
