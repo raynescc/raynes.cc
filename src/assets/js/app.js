@@ -10,22 +10,18 @@ function showMenu() {
   }
 }
 
+/* document ready */
 $(document).ready(function() {
-
   /* 'active' class navbar */
   var pathname = window.location.pathname;
   $('#menu > li > a[href="' + pathname + '"]').parent().addClass('active');
-
-  /* photo count */
-  // var instaCount = $('.instaimg').length
-  // $('.posts').text(instaCount);
 
   /* update copyright date */
   var today = new Date()
   var year = today.getFullYear()
   $('.copyright').text(year);
 
-  /* instagram feed */
+  /* insta feed */
   var userFeed = new Instafeed({
     get: 'user',
     userId: '6345390265',
@@ -46,3 +42,10 @@ $(document).ready(function() {
     }
   });
 })
+
+/* window load event */
+// $(window).load(function() {
+//   /* photo count */
+//   var instaCount = $('.instaimg').length
+//   $('.posts').text(instaCount);
+// });
