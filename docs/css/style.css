@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Karla:400,700");@import url("https://fonts.googleapis.com/css?family=Montserrat:100");*{margin:auto 0}
 * a,* h1,* h2,* h3,* h4,* h5,* i,* li,* p,* span,* ul{font-family:"Karla";color:#1b1423;margin:auto}
-* h1{font-size:32px}* h2{font-size:28px}* h3{font-size:20px}* h4{font-size:16px}* a{text-decoration:none}
-* button{outline:0}.show-menu{font-family:"Karla";font-size:16px;text-decoration:none;text-transform:uppercase;color:#fff;background:#1b1423;font-weight:700;text-align:center;display:none;width:100%;height:50px;border:0;cursor:pointer}
+* a{outline:0}* h1{font-size:32px}* h2{font-size:28px}* h3{font-size:20px}* h4{font-size:16px}
+* a{text-decoration:none}* button{outline:0}.show-menu{font-family:"Karla";font-size:16px;text-decoration:none;text-transform:uppercase;color:#fff;background:#1b1423;font-weight:700;text-align:center;display:none;width:100%;height:50px;border:0;cursor:pointer}
 .show-menu:focus{outline:0}.nav ul{list-style:none;background-color:#1b1423;text-align:center;padding:0;margin:0}
 .nav ul li{display:inline-block;width:140px;font-weight:700;font-family:"Karla";font-size:16px;line-height:50px;height:50px}
 .nav ul .active{background-color:#3897f0}.nav a{text-decoration:none;text-transform:uppercase;color:#fff;display:block;transition:.3s background-color}
