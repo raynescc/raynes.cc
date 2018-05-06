@@ -34,7 +34,8 @@
 }@media(max-width:800px){.links{display:none}#instafeed{grid-gap:5px;margin:0}.insta{margin:0}
 .name-info{margin:0 10%}}@media(max-width:820px){.nav{display:none}.nav ul{position:static}
 .nav li{margin-bottom:1px}.nav ul li,li a{width:100%}.show-menu{display:block}.image-content h1{font-size:30px}
-.image-content p{font-size:18px}}@media(min-width:821px){.nav{display:block !important}
+.image-content p{font-size:18px}.main-container{display:flex;flex-direction:column;height:auto}
+.main-container .side-image{width:100%}}@media(min-width:821px){.nav{display:block !important}
 }@media(max-width:1000px){.insta .me{height:100px;width:100px;margin:40px 20px}}@media(max-width:1100px){.card{padding:50px 0;margin:0 5%}
 .card-dark{padding:50px 5%;margin:0}.card-light{padding:50px 5%;margin:0}.photo-me .name-info{text-align:center;margin:0 10%}
 }
