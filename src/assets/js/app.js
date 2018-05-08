@@ -21,6 +21,18 @@ $(document).ready(function() {
   var year = today.getFullYear()
   $('.copyright').text(year);
 
+  /* age */
+  var start = new Date('09/20/1991 06:00 AM');
+  var timer;
+
+  function age() {
+    var now = new Date();
+    var age = now.getTime() - start.getTime();
+    var year = (age / 31556926000);
+    document.getElementById('age').innerHTML = year.toFixed(9);
+  }
+  timer = setInterval(age, 1);
+
   /* insta feed */
   var userFeed = new Instafeed({
     get: 'user',
