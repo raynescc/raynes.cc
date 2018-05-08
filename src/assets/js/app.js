@@ -33,6 +33,26 @@ $(document).ready(function() {
   });
   userFeed.run();
 
+  /* insta follower count */
+  var token = '6345390265.1677ed0.bd6241dd10504c7e9c901d5c2e1fec2c';
+  $.ajax({
+    url: 'https://api.instagram.com/v1/users/self',
+    dataType: 'jsonp',
+    type: 'GET',
+    data: {
+      access_token: token
+    },
+    success: function(data) {
+      var posts = data['data']['counts']['media'];
+      var follows = data['data']['counts']['follows'];
+      $(".posts").text(posts);
+      $(".following").text(follows);
+    },
+    error: function(data) {
+      console.log(data);
+    }
+  });
+
   /* popup gallery */
   $('.gallery').magnificPopup({
     type: 'image',
