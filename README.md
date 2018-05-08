@@ -10,11 +10,15 @@ Curious to know more about me? [Click here](https://raynes.io) 👈 and take a l
 
   ```
   git clone https://github.com/raynesio/raynes.io.git
+  ```
+  ```
   cd raynes.io
+  ```
+  ```
   npm install
+  ```
+  ```
   gulp
   ```
-🚀 3. Go to http://localhost:3000/
 
-
-🔥🔥🔥 BOOOOOOOM! 🔥🔥🔥
+🚀 3. Go to http://localhost:3000/ and you should see the site.
