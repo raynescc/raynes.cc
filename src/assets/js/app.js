@@ -57,8 +57,10 @@ $(document).ready(function() {
     success: function(data) {
       var posts = data['data']['counts']['media'];
       var follows = data['data']['counts']['follows'];
+      var followed_by = data['data']['counts']['followed_by'];
       $(".posts").text(posts);
       $(".following").text(follows);
+      $(".followers").text(followed_by);
     },
     error: function(data) {
       console.log(data);
