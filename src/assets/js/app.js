@@ -1,5 +1,3 @@
-//TODO: MAKE NAVBAR ANIMATED ON TOGGLE and animation between pages
-
 /* toggle navbar  */
 function showMenu() {
   var menu = document.getElementById("nav");
@@ -10,10 +8,10 @@ function showMenu() {
   }
 }
 
-/* document ready */
+/* document.ready */
 $(document).ready(function() {
 
-  /* fade animation on load */
+  /* fade page in on load */
   $(".fade").hide(0).delay(0).fadeIn(3000)
 
   /* 'active' class navbar */
@@ -80,10 +78,3 @@ $(document).ready(function() {
     }
   });
 })
-
-/* window load event */
-// $(window).load(function() {
-//   /* photo count */
-//   var instaCount = $('.instaimg').length
-//   $('.posts').text(instaCount);
-// });
