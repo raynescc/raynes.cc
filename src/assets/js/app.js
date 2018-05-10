@@ -12,6 +12,10 @@ function showMenu() {
 
 /* document ready */
 $(document).ready(function() {
+
+  /* fade animation on load */
+  $(".fade").hide(0).delay(0).fadeIn(3000)
+
   /* 'active' class navbar */
   var pathname = window.location.pathname;
   $('#menu > li > a[href="' + pathname + '"]').parent().addClass('active');
