@@ -21,7 +21,7 @@
 #instafeed img{max-width:100%}#instafeed img:hover{opacity:.7}.mfp-counter,.mfp-title{font-family:"Karla"}
 .card{justify-content:left;padding:50px 300px}.card h3:hover{color:#3897f0;cursor:pointer}
 .card-dark{background-color:#1b1423}.card-dark h2,.card-dark h4,.card-dark li,.card-dark p{color:#fff !important}
-.card-dark i{color:#fff}.card-light{background-color:#f8f7f7}.experience{padding-bottom:0}
+.card-dark i{color:#fff}.card-light{background-color:#f8f7f7}.no-bottom{padding-bottom:0 !important}
 .cover{background-color:#1b1423;height:280px}.location{margin:25px 0 30px}.location i{color:#1b1423}
 .location span{color:#1b1423;border:2px solid;padding:8px;border-radius:4px}.location:hover span{color:#3897f0}
 .location:hover i{color:#3897f0}.photo-me img{height:180px;width:180px;position:relative;border-radius:100%;display:block;margin:-100px auto 0;border:4px solid #fff;max-width:560px}
