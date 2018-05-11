@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<!-- Meta Data -->
 	<meta charset="UTF-8">
@@ -22,6 +23,7 @@
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-118869510-1"></script>
 	<script>
 		window.dataLayer = window.dataLayer || [];
+
 		function gtag() {
 			dataLayer.push(arguments);
 		}
@@ -29,6 +31,7 @@
 		gtag('config', 'UA-118869510-1');
 	</script>
 </head>
+
 <body>
 
 	<!-- Nav -->
@@ -43,34 +46,33 @@
 		</ul>
 	</div>
 
-
 	<!-- Insta Header -->
 	<div class="page-wrapper fade">
-	<div class="insta">
-		<img class="me" src="../img/me.jpg">
-		<div class="info">
-			<div class="title">
-				<h1>raynes.io</h1>
-				<button onclick="location.href='https://twitter.com/raynesio'">Follow</button>
+		<div class="insta">
+			<img class="me" src="../img/me.jpg">
+			<div class="info">
+				<div class="title">
+					<h1>raynes.io</h1>
+					<button onclick="location.href='https://twitter.com/raynesio'">Follow</button>
+				</div>
+				<div class="counts">
+					<p><span class="posts"></span> posts</p>
+					<p><span class="following"></span> following</p>
+					<p><span class="followers"></span> followers</p>
+				</div>
+				<p class="bio">👨‍💻Software Engineer. 🌏Traveller. 🍔Foodie.</p>
 			</div>
-			<div class="counts">
-				<!-- Need to fix counts soon -->
-				<p><span class="posts"></span> posts</p>
-				<p><span class="following"></span> following</p>
-				<p><span class="followers"></span> followers</p>
-			</div>
-			<p class="bio">👨‍💻Software Engineer. 🌏Traveller. 🍔Foodie.</p>
+		</div>
+
+		<!-- Insta Feed -->
+		<div id="instafeed" class="gallery fade"></div>
+
+		<!-- Footer -->
+		<div class="footer">
+			<p>© <span class="copyright"></span> Andrew Raynes</p>
 		</div>
 	</div>
 
-	<!-- Insta Feed -->
-	<div id="instafeed" class="gallery"></div>
-
-	<!-- Footer -->
-	<div class="footer">
-		<p>© <span class="copyright"></span> Andrew Raynes</p>
-	</div>
-	</div>
-
 </body>
+
 </html>
