@@ -6,9 +6,9 @@
 .nav ul li{display:inline-block;width:140px;font-weight:700;font-family:"Karla";font-size:16px;line-height:50px;height:50px}
 .nav ul .active{background-color:#3897f0}.nav a{text-decoration:none;text-transform:uppercase;color:#fff;display:block;transition:.3s background-color}
 .nav a:hover{background-color:#3897f0}.footer{text-align:center;margin:40px}.main-container{width:100vw;height:100vh;display:flex;display:-webkit-box;display:-ms-flexbox}
-.main-container .side-image{width:50%;background-image:url(../img/full.jpg);background-position:center center;background-size:cover}
+.main-container .side-image{width:50%;background-image:url("../img/full.jpg");background-position:center center;background-size:cover}
 .main-container .about-text{width:50%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;overflow:auto;background-color:#1b1423}
-.main-container .about-text .about-body{padding:60px}.main-container .about-text .about-body p,.main-container .about-text .about-body a{color:#fff}
+.main-container .about-text .about-body{padding:60px}.main-container .about-text .about-body a,.main-container .about-text .about-body p{color:#fff}
 .main-container .about-text .about-body .my-name{font-size:20px;color:#3897f0;margin-bottom:30px}
 .main-container .about-text .about-body .tagline{font-size:64px}.main-container .about-text .about-body #age{font-size:30px;margin-top:20px}
 .main-container .about-text .about-body .intro{font-size:18px;margin:40px 0}.main-container .about-text .about-body .intro a{text-decoration:underline;color:#3897f0}
@@ -18,9 +18,9 @@
 .insta .counts{display:flex;flex-wrap:nowrap;font-family:"Karla";text-align:left;margin-bottom:10px}
 .insta .counts p{margin-left:0;margin-right:40px;text-align:left;color:#1b1423}.insta .counts p span{font-weight:bold}
 .insta .bio{text-align:left}#instafeed{display:grid;grid-template-columns:repeat(3,1fr);grid-gap:20px;margin:0 20%}
-#instafeed img{max-width:100%}#instafeed img:hover{opacity:.7}.mfp-counter,.mfp-title{font-family:"Karla"}
-.card{justify-content:left;padding:50px 300px}.card h3:hover{color:#3897f0;cursor:pointer}
-.card-dark{background-color:#1b1423}.card-dark h2,.card-dark h4,.card-dark li,.card-dark p{color:#fff !important}
+#instafeed img{max-width:100%;vertical-align:bottom}#instafeed img:hover{opacity:.7}
+.mfp-counter,.mfp-title{font-family:"Karla"}.card{justify-content:left;padding:50px 300px}
+.card h3:hover{color:#3897f0;cursor:pointer}.card-dark{background-color:#1b1423}.card-dark h2,.card-dark h4,.card-dark li,.card-dark p{color:#fff !important}
 .card-dark i{color:#fff}.card-light{background-color:#f8f7f7}.no-bottom{padding-bottom:0 !important}
 .cover{background-color:#1b1423;height:280px}.location{margin:25px 0 30px}.location i{color:#1b1423}
 .location span{color:#1b1423;border:2px solid;padding:8px;border-radius:4px}.location:hover span{color:#3897f0}
