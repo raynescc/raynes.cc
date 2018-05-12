@@ -10,8 +10,8 @@
 .main-container .about-text{width:50%;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;overflow:auto;background-color:#1b1423}
 .main-container .about-text .about-body{padding:60px}.main-container .about-text .about-body p,.main-container .about-text .about-body a{color:#fff}
 .main-container .about-text .about-body .my-name{font-size:20px;color:#3897f0;margin-bottom:30px}
-.main-container .about-text .about-body .tagline{font-size:64px}.main-container .about-text .about-body .intro{font-size:18px;font-family:"Montserrat";margin:40px 0}
-.main-container .about-text .about-body .intro a{text-decoration:underline;color:#3897f0}
+.main-container .about-text .about-body .tagline{font-size:64px}.main-container .about-text .about-body #age{font-size:30px;margin-top:20px}
+.main-container .about-text .about-body .intro{font-size:18px;margin:40px 0}.main-container .about-text .about-body .intro a{text-decoration:underline;color:#3897f0}
 .insta{display:flex;flex-wrap:nowrap;justify-content:left;margin:0 20%}.insta .me{border-radius:50%;height:150px;width:150px;margin:40px 60px 40px 40px}
 .insta .title{display:flex;flex-wrap:nowrap;text-align:left;margin-bottom:15px}.insta .title h1{font-family:"Montserrat";color:#1b1423;margin:0 15px 0 0}
 .insta .title button{background-color:#3897f0;font-size:14px;color:#fff;border:0;height:24px;border:0;margin:8px;padding:0 15px;border-radius:3px;cursor:pointer}

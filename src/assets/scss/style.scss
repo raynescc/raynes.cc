@@ -160,9 +160,12 @@ $cream: #f8f7f7;
     .tagline {
       font-size: 64px;
     }
+    #age {
+      font-size: 30px;
+      margin-top: 20px;
+    }
     .intro {
       font-size: 18px;
-      font-family: $Montserrat;
       margin: 40px 0px;
       a {
         text-decoration: underline;
