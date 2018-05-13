@@ -41,17 +41,17 @@ $(document).ready(function() {
   // insta feed
   var instaElement = document.getElementById('instafeed');
   if (instaElement) {
-  var userFeed = new Instafeed({
-    get: 'user',
-    userId: '6345390265',
-    limit: 500,
-    resolution: 'standard_resolution',
-    accessToken: '6345390265.1677ed0.bd6241dd10504c7e9c901d5c2e1fec2c',
-    sortBy: 'most-recent',
-    template: '<div class="instaimg"><a href="{{image}}" title="{{caption}}" target="_blank"><img src="{{image}}" alt="{{caption}}" class="img-fluid"/></a></div>',
-  });
-  userFeed.run();
-}
+    var userFeed = new Instafeed({
+      get: 'user',
+      userId: '6345390265',
+      limit: 500,
+      resolution: 'standard_resolution',
+      accessToken: '6345390265.1677ed0.bd6241dd10504c7e9c901d5c2e1fec2c',
+      sortBy: 'most-recent',
+      template: '<div class="instaimg"><a href="{{image}}" title="{{caption}}" target="_blank"><img src="{{image}}" alt="{{caption}}" class="img-fluid"/></a></div>',
+    });
+    userFeed.run();
+  }
 
   // insta follower count
   var token = '6345390265.1677ed0.bd6241dd10504c7e9c901d5c2e1fec2c';
