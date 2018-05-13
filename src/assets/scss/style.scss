@@ -11,7 +11,7 @@ $light-grey: #9fadb7;
 $cream: #f8f7f7;
 
 * {
-  margin: auto 0;
+  margin: 0;
 
   a,
   h1,
@@ -192,6 +192,10 @@ $cream: #f8f7f7;
   flex-wrap: nowrap;
   justify-content: left;
   margin: 0 20%;
+
+  .info {
+    margin: auto 0;
+  }
 
   .me {
     border-radius: 50%;
