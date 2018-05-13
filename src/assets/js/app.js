@@ -11,31 +11,36 @@ function showMenu() {
 /* document.ready */
 $(document).ready(function() {
 
-  /* fade page in on load */
+  // fade page in on load
   $(".fade").hide(0).delay(0).fadeIn(3000)
 
-  /* 'active' class navbar */
+  // 'active' class navbar
   var pathname = window.location.pathname;
   $('#menu > li > a[href="' + pathname + '"]').parent().addClass('active');
 
-  /* update copyright date */
+  // update copyright date
   var today = new Date()
   var year = today.getFullYear()
   $('.copyright').text(year);
 
-  /* age */
-  var start = new Date('09/20/1991 06:00 AM');
-  var timer;
+  // age
+  var ageElement = document.getElementById('age');
 
-  function age() {
-    var now = new Date();
-    var age = now.getTime() - start.getTime();
-    var year = (age / 31556926000);
-    document.getElementById('age').innerHTML = year.toFixed(9);
+  // check the age element exists
+  if (ageElement) {
+    var start = new Date('09/20/1991 06:00 AM');
+    var timer;
+
+    function age() {
+      var now = new Date();
+      var age = now.getTime() - start.getTime();
+      var year = (age / 31556926000);
+      ageElement.innerHTML = year.toFixed(9);
+    }
+    timer = setInterval(age, 1);
   }
-  timer = setInterval(age, 1);
 
-  /* insta feed */
+  // insta feed
   var userFeed = new Instafeed({
     get: 'user',
     userId: '6345390265',
@@ -47,7 +52,7 @@ $(document).ready(function() {
   });
   userFeed.run();
 
-  /* insta follower count */
+  // insta follower count
   var token = '6345390265.1677ed0.bd6241dd10504c7e9c901d5c2e1fec2c';
   $.ajax({
     url: 'https://api.instagram.com/v1/users/self',
@@ -69,7 +74,7 @@ $(document).ready(function() {
     }
   });
 
-  /* popup gallery */
+  // popup gallery
   $('.gallery').magnificPopup({
     type: 'image',
     delegate: 'a',
