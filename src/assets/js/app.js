@@ -25,8 +25,6 @@ $(document).ready(function() {
 
   // age
   var ageElement = document.getElementById('age');
-
-  // check the age element exists
   if (ageElement) {
     var start = new Date('09/20/1991 06:00 AM');
     var timer;
@@ -41,6 +39,8 @@ $(document).ready(function() {
   }
 
   // insta feed
+  var instaElement = document.getElementById('instafeed');
+  if (instaElement) {
   var userFeed = new Instafeed({
     get: 'user',
     userId: '6345390265',
@@ -51,6 +51,7 @@ $(document).ready(function() {
     template: '<div class="instaimg"><a href="{{image}}" title="{{caption}}" target="_blank"><img src="{{image}}" alt="{{caption}}" class="img-fluid"/></a></div>',
   });
   userFeed.run();
+}
 
   // insta follower count
   var token = '6345390265.1677ed0.bd6241dd10504c7e9c901d5c2e1fec2c';
