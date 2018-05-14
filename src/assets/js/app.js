@@ -39,7 +39,7 @@ $(document).ready(function() {
   }
 
   // Insta feed
-  var instaElement = document.getElementById('instafeed');
+  var instaElement = document.getElementsByClassName('gallery');
   if (instaElement) {
     var userFeed = new Instafeed({
       get: 'user',
