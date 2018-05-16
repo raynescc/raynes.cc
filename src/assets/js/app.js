@@ -18,12 +18,8 @@ document.addEventListener("DOMContentLoaded", function() {
     accessToken: '6345390265.d73bac6.773341d5cfcc498e9e4e30f9d3f6a1bd',
     resolution: 'standard_resolution',
     sortBy: 'most-recent',
-    limit: 2,
+    limit: 3,
     template: '<div class="instaimg"><a href="{{image}}" title="{{caption}}" target="_blank"><img src="{{image}}" alt="{{caption}}" class="img-fluid"/></a></div>',
-
-    filter: function(image) {
-      return image.type === 'image';
-    },
 
     after: function() {
       loader.style.display = 'none';
@@ -31,6 +27,13 @@ document.addEventListener("DOMContentLoaded", function() {
         loadButton.setAttribute('disabled', 'disabled');
       }
     }
+  });
+
+  var loadButton = document.getElementById("insta-btn"),
+    loader = document.getElementById("loader");
+
+  loadButton.addEventListener("click", function() {
+    instaElement.next();
   });
 
   instaElement.run();
@@ -65,22 +68,6 @@ $(document).ready(function() {
     }
     timer = setInterval(age, 1);
   }
-
-  // Insta feed
-  // var instaElement = document.getElementsByClassName('gallery');
-  // if (instaElement) {
-  //   var userFeed = new Instafeed({
-  //     get: 'user',
-  //     userId: '6345390265',
-  //     clientId: '31d0c8837db64ed393833d048c6d6b93',
-  //     accessToken: '6345390265.1677ed0.bd6241dd10504c7e9c901d5c2e1fec2c',
-  //     limit: 500,
-  //     resolution: 'standard_resolution',
-  //     sortBy: 'most-recent',
-  //     template: '<div class="instaimg"><a href="{{image}}" title="{{caption}}" target="_blank"><img src="{{image}}" alt="{{caption}}" class="img-fluid"/></a></div>',
-  //   });
-  //   userFeed.run();
-  // }
 
   // Insta follower count
   var token = '6345390265.1677ed0.bd6241dd10504c7e9c901d5c2e1fec2c';
