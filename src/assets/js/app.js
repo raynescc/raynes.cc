@@ -8,6 +8,34 @@ function showMenu() {
   }
 }
 
+/* Instagram pictures */
+document.addEventListener("DOMContentLoaded", function() {
+  var instaElement = new Instafeed({
+    get: 'user',
+    userId: '6345390265',
+    clientId: 'd73bac66c11c45ac8bf4f44ccc5521df',
+    target: 'instafeed',
+    accessToken: '6345390265.d73bac6.773341d5cfcc498e9e4e30f9d3f6a1bd',
+    resolution: 'standard_resolution',
+    sortBy: 'most-recent',
+    limit: 2,
+    template: '<div class="instaimg"><a href="{{image}}" title="{{caption}}" target="_blank"><img src="{{image}}" alt="{{caption}}" class="img-fluid"/></a></div>',
+
+    filter: function(image) {
+      return image.type === 'image';
+    },
+
+    after: function() {
+      loader.style.display = 'none';
+      if (!this.hasNext()) {
+        loadButton.setAttribute('disabled', 'disabled');
+      }
+    }
+  });
+
+  instaElement.run();
+});
+
 /* Document.ready */
 $(document).ready(function() {
 
@@ -39,19 +67,20 @@ $(document).ready(function() {
   }
 
   // Insta feed
-  var instaElement = document.getElementsByClassName('gallery');
-  if (instaElement) {
-    var userFeed = new Instafeed({
-      get: 'user',
-      userId: '6345390265',
-      limit: 500,
-      resolution: 'standard_resolution',
-      accessToken: '6345390265.1677ed0.bd6241dd10504c7e9c901d5c2e1fec2c',
-      sortBy: 'most-recent',
-      template: '<div class="instaimg"><a href="{{image}}" title="{{caption}}" target="_blank"><img src="{{image}}" alt="{{caption}}" class="img-fluid"/></a></div>',
-    });
-    userFeed.run();
-  }
+  // var instaElement = document.getElementsByClassName('gallery');
+  // if (instaElement) {
+  //   var userFeed = new Instafeed({
+  //     get: 'user',
+  //     userId: '6345390265',
+  //     clientId: '31d0c8837db64ed393833d048c6d6b93',
+  //     accessToken: '6345390265.1677ed0.bd6241dd10504c7e9c901d5c2e1fec2c',
+  //     limit: 500,
+  //     resolution: 'standard_resolution',
+  //     sortBy: 'most-recent',
+  //     template: '<div class="instaimg"><a href="{{image}}" title="{{caption}}" target="_blank"><img src="{{image}}" alt="{{caption}}" class="img-fluid"/></a></div>',
+  //   });
+  //   userFeed.run();
+  // }
 
   // Insta follower count
   var token = '6345390265.1677ed0.bd6241dd10504c7e9c901d5c2e1fec2c';
