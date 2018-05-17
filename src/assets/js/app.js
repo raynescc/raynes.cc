@@ -8,37 +8,6 @@ function showMenu() {
   }
 }
 
-/* Instagram pictures */
-document.addEventListener("DOMContentLoaded", function() {
-  var instaElement = new Instafeed({
-    get: 'user',
-    userId: '6345390265',
-    clientId: 'd73bac66c11c45ac8bf4f44ccc5521df',
-    target: 'instafeed',
-    accessToken: '6345390265.d73bac6.773341d5cfcc498e9e4e30f9d3f6a1bd',
-    resolution: 'standard_resolution',
-    sortBy: 'most-recent',
-    limit: 3,
-    template: '<div class="instaimg"><a href="{{image}}" title="{{caption}}" target="_blank"><img src="{{image}}" alt="{{caption}}" class="img-fluid"/></a></div>',
-
-    after: function() {
-      loader.style.display = 'none';
-      if (!this.hasNext()) {
-        loadButton.setAttribute('disabled', 'disabled');
-      }
-    }
-  });
-
-  var loadButton = document.getElementById("insta-btn"),
-    loader = document.getElementById("loader");
-
-  loadButton.addEventListener("click", function() {
-    instaElement.next();
-  });
-
-  instaElement.run();
-});
-
 /* Document.ready */
 $(document).ready(function() {
 
@@ -68,6 +37,22 @@ $(document).ready(function() {
     }
     timer = setInterval(age, 1);
   }
+
+  // Instagram pictures
+  var instaElement = new Instafeed({
+    get: 'user',
+    userId: '6345390265',
+    clientId: 'd73bac66c11c45ac8bf4f44ccc5521df',
+    target: 'instafeed',
+    accessToken: '6345390265.d73bac6.773341d5cfcc498e9e4e30f9d3f6a1bd',
+    resolution: 'standard_resolution',
+    sortBy: 'most-recent',
+    limit: 18,
+    template: '<div class="instaimg"><a href="{{image}}" title="{{caption}}" target="_blank"><img src="{{image}}" alt="{{caption}}" class="img-fluid"/></a></div>',
+
+  });
+
+  instaElement.run();
 
   // Insta follower count
   var token = '6345390265.1677ed0.bd6241dd10504c7e9c901d5c2e1fec2c';
