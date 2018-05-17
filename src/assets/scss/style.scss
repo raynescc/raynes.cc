@@ -246,9 +246,10 @@ $cream: #f8f7f7;
   margin-top: 20px;
 }
 
-.insta-btn {
+.blue-btn {
   background-color: $insta-blue;
   font-size: 14px;
+  font-style: normal !important;
   color: $white;
   border: none;
   height: 24px;
@@ -284,13 +285,6 @@ $cream: #f8f7f7;
 .card {
   justify-content: left;
   padding: 50px 300px;
-
-  h3 {
-    &:hover {
-      color: $insta-blue;
-      cursor: pointer;
-    }
-  }
 }
 
 .card-dark {
