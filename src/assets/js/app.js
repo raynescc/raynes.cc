@@ -54,7 +54,7 @@ $(document).ready(function() {
 
   instaElement.run();
 
-  // Insta follower count
+  // Insta details
   var token = '6345390265.1677ed0.bd6241dd10504c7e9c901d5c2e1fec2c';
   $.ajax({
     url: 'https://api.instagram.com/v1/users/self',
@@ -67,9 +67,15 @@ $(document).ready(function() {
       var posts = data['data']['counts']['media'];
       var follows = data['data']['counts']['follows'];
       var followed_by = data['data']['counts']['followed_by'];
+      var bio = data['data']['bio'];
+      var username = data['data']['username'];
+      var profile_picture = data['data']['profile_picture'];
       $(".posts").text(posts);
       $(".following").text(follows);
       $(".followers").text(followed_by);
+      $(".bio").text(bio);
+      $(".username").text(username);
+      $(".profile_picture").append("<img class=me src='"+data.data.profile_picture+"' />");
     },
     error: function(data) {
       console.log(data);
