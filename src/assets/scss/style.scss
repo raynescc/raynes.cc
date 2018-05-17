@@ -215,19 +215,6 @@ $cream: #f8f7f7;
       color: $text;
       margin: 0 15px 0 0;
     }
-
-    button {
-      background-color: $insta-blue;
-      font-size: 14px;
-      color: $white;
-      border: none;
-      height: 24px;
-      border: 0;
-      margin: 8px;
-      padding: 0 15px;
-      border-radius: 3px;
-      cursor: pointer;
-    }
   }
 
   .counts {
@@ -252,6 +239,24 @@ $cream: #f8f7f7;
   .bio {
     text-align: left;
   }
+}
+
+.see-more {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.insta-btn {
+  background-color: $insta-blue;
+  font-size: 14px;
+  color: $white;
+  border: none;
+  height: 24px;
+  border: 0;
+  margin: 8px;
+  padding: 0 15px;
+  border-radius: 3px;
+  cursor: pointer;
 }
 
 #instafeed {
