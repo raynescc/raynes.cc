@@ -55,7 +55,6 @@ $box-shadow: #232323;
     outline: 0;
   }
 }
-
 //----------  Nav Bar ----------
 .show-menu {
   background: $text;
@@ -77,7 +76,6 @@ $box-shadow: #232323;
   }
 }
 
-
 .nav {
   ul {
     background-color: $text;
@@ -88,12 +86,12 @@ $box-shadow: #232323;
 
     li {
       display: inline-block;
-      width: 140px;
-      font-weight: 700;
       font-family: $karla;
       font-size: 16px;
-      line-height: 50px;
+      font-weight: 700;
       height: 50px;
+      line-height: 50px;
+      width: 140px;
     }
 
     .active {
@@ -102,52 +100,50 @@ $box-shadow: #232323;
   }
 
   a {
-    text-decoration: none;
-    text-transform: uppercase;
     color: $white;
     display: block;
+    text-decoration: none;
+    text-transform: uppercase;
     transition: 0.3s background-color;
-  }
 
-  a:hover {
-    background-color: $insta-blue;
+    &:hover {
+      background-color: $insta-blue;
+    }
   }
 }
-/* ----------  Nav Bar End ----------  */
-/* ----------  Footer ----------  */
+// ----------  Footer ----------
 .footer {
-  text-align: center;
   margin: 40px;
+  text-align: center;
 }
-/* ----------  Footer End ----------  */
-/* ----------  Home Page ----------  */
+// ----------  Home Page ----------
 .main-container {
-  width: 100vw;
-  height: 100vh;
   display: flex;
   display: -webkit-box;
   display: -ms-flexbox;
+  height: 100vh;
+  width: 100vw;
 
   .side-image {
-    width: 50%;
     background-image: url("../img/full.jpg");
     background-position: center center;
     background-size: cover;
+    width: 50%;
   }
 
   .about-text {
-    width: 50%;
+    -ms-flex-align: center;
+    -ms-flex-pack: center;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+    align-items: center;
+    background-color: $text;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
     justify-content: center;
     overflow: auto;
-    background-color: $text;
+    width: 50%;
 
     .about-body {
       padding: 60px;
@@ -158,8 +154,8 @@ $box-shadow: #232323;
       }
 
       .my-name {
-        font-size: 20px;
         color: $insta-blue;
+        font-size: 20px;
         margin-bottom: 30px;
       }
 
@@ -177,15 +173,15 @@ $box-shadow: #232323;
         margin: 40px 0;
 
         a {
-          text-decoration: underline;
           color: $insta-blue;
+          text-decoration: underline;
         }
       }
     }
   }
 }
-/* ---------- Home Page End ---------- */
-/* ---------- Photos Page ---------- */
+
+// ---------- Photos Page ----------
 .insta {
   display: flex;
   flex-wrap: nowrap;
@@ -199,19 +195,19 @@ $box-shadow: #232323;
   .me {
     border-radius: 50%;
     height: 150px;
-    width: 150px;
     margin: 40px 60px 40px 40px;
+    width: 150px;
   }
 
   .title {
     display: flex;
     flex-wrap: nowrap;
-    text-align: left;
     margin-bottom: 15px;
+    text-align: left;
 
     h1 {
-      font-family: $montserrat;
       color: $text;
+      font-family: $montserrat;
       margin: 0 15px 0 0;
     }
   }
@@ -220,14 +216,14 @@ $box-shadow: #232323;
     display: flex;
     flex-wrap: nowrap;
     font-family: $karla;
-    text-align: left;
     margin-bottom: 10px;
+    text-align: left;
 
     p {
+      color: $text;
       margin-left: 0;
       margin-right: 40px;
       text-align: left;
-      color: $text;
 
       span {
         font-weight: bold;
@@ -241,28 +237,27 @@ $box-shadow: #232323;
 }
 
 .see-more {
-  text-align: center;
   margin-top: 20px;
+  text-align: center;
 }
 
 .blue-btn {
   background-color: $insta-blue;
+  border: 0;
+  border-radius: 3px;
+  color: $white;
+  cursor: pointer;
   font-size: 14px;
   font-style: normal !important;
-  color: $white;
-  border: none;
   height: 24px;
-  border: 0;
   margin: 8px;
   padding: 0 15px;
-  border-radius: 3px;
-  cursor: pointer;
 }
 
 #instafeed {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
   margin: 0 20%;
 
   img {
@@ -270,7 +265,7 @@ $box-shadow: #232323;
     vertical-align: bottom;
 
     &:hover {
-      opacity: .7;
+      opacity: 0.7;
     }
   }
 }
@@ -406,9 +401,9 @@ $box-shadow: #232323;
   }
 
   .role-logo {
-    width: 40px;
     height: 40px;
     margin: 45px 40px 20px 0;
+    width: 40px;
   }
 }
 
@@ -432,7 +427,7 @@ $box-shadow: #232323;
     margin: 5px;
     outline: none;
     padding: 8px;
-    transition: box-shadow .2s ease-in-out;
+    transition: box-shadow 0.2s ease-in-out;
     user-select: none;
     vertical-align: middle;
 
