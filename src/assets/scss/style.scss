@@ -197,9 +197,9 @@ $box-shadow: #232323;
 
   .me {
     border-radius: 50%;
-    height: 150px;
-    margin: 40px 60px 40px 40px;
-    width: 150px;
+    height: 120px;
+    margin: 40px 40px 40px 20px;
+    width: 120px;
   }
 
   .title {
@@ -437,6 +437,12 @@ $box-shadow: #232323;
 // ---------- Media Queries ----------
 @media (max-width: 480px) {
   .insta {
+    .me {
+      height: 100px;
+      margin: 40px 30px 40px 20px;
+      width: 100px;
+    }
+
     .title {
       display: table-cell;
 
