@@ -14,7 +14,8 @@
 .main-container .about-text .about-body .intro{font-size:18px;margin:40px 0}.main-container .about-text .about-body .intro a{color:#3897f0;text-decoration:underline}
 .insta{display:flex;flex-wrap:nowrap;justify-content:left;margin:0 20%}.insta .info{margin:auto 0}
 .insta .me{border-radius:50%;height:120px;margin:40px 40px 40px 20px;width:120px}
-.insta .title{display:flex;flex-wrap:nowrap;margin-bottom:15px;text-align:left}.insta .title h1{color:#1b1423;font-family:"Montserrat";margin:0 15px 0 0}
+.insta .title{display:flex;flex-wrap:nowrap;margin-bottom:15px;text-align:left}.insta .title .username{margin:0}
+.insta .title h1{color:#1b1423;font-family:"Montserrat";margin:0 15px 0 0}
 .insta .counts{display:flex;flex-wrap:nowrap;font-family:"Karla";margin-bottom:10px;text-align:left}
 .insta .counts p{color:#1b1423;margin-left:0;margin-right:40px;text-align:left}.insta .counts p span{font-weight:bold}
 .insta .bio{text-align:left}.see-more{margin-top:20px;text-align:center}.blue-btn{background-color:#3897f0;border:0;border-radius:3px;color:#fff;cursor:pointer;font-size:14px;height:24px;margin:8px;padding:0 15px}

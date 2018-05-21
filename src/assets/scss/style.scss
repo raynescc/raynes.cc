@@ -208,6 +208,10 @@ $box-shadow: #232323;
     margin-bottom: 15px;
     text-align: left;
 
+    .username {
+      margin: 0;
+    }
+
     h1 {
       color: $text;
       font-family: $montserrat;
