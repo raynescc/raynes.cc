@@ -75,7 +75,7 @@ $(document).ready(function() {
       $(".followers").text(followed_by);
       $(".bio").text(bio);
       $(".username").text(username);
-      $(".profile_picture").append("<img class=me src='" + data.data.profile_picture + "' />");
+      $(".profile-picture").append("<img class=me src='" + data.data.profile_picture + "' />");
     },
     error: function(data) {
       console.log(data);
