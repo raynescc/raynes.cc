@@ -34,13 +34,12 @@
 .role-group .role-details h2,.role-group .role-details h4,.role-group .role-details h5{font-weight:400;line-height:1.5}
 .role-group .role-details h5{color:#63717b;margin-bottom:10px}.role-group .role-logo{height:40px;margin:45px 40px 20px 0;width:40px}
 .role-info{margin-left:83px}.skills ul{padding-left:0}.skills .tags{align-items:center;background-color:#3897f0;border:0;border-radius:4px;color:#fff;display:inline-flex;font-size:14px;margin:5px;outline:0;padding:8px;transition:box-shadow .2s ease-in-out;user-select:none;vertical-align:middle}
-@media(max-width:480px){.insta .me{height:100px;margin:40px 30px 40px 20px;width:100px}
-.insta .title{display:table-cell}.insta .title button{margin:10px 0 0;width:85%}.insta .bio{display:none}
-.insta .counts{display:none}.centered-text{left:37%}.left-footer{margin:20px;text-align:left}
-}@media(max-width:800px){.links{display:none}#instafeed{grid-gap:5px;margin:0}.insta{margin:0}
-.name-info{margin:0 10%}}@media(max-width:820px){.nav{display:none}.nav ul{position:static;width:100%}
-.nav ul li{margin-bottom:1px;width:100%}.show-menu{display:block}.image-content h1{font-size:30px}
-.image-content p{font-size:18px}.main-container{display:flex;flex-direction:column;height:auto}
+@media(max-width:480px){.insta .me{height:100px;margin:40px 20px;width:100px}.insta .title{display:table-cell}
+.insta .title button{margin:10px 0 0;width:85%}.insta .bio{display:none}.insta .counts{display:none}
+.centered-text{left:37%}.left-footer{margin:20px;text-align:left}}@media(max-width:800px){.links{display:none}
+#instafeed{grid-gap:5px;margin:0}.insta{margin:0}.name-info{margin:0 10%}}@media(max-width:820px){.nav{display:none}
+.nav ul{position:static;width:100%}.nav ul li{margin-bottom:1px;width:100%}.show-menu{display:block}
+.image-content h1{font-size:30px}.image-content p{font-size:18px}.main-container{display:flex;flex-direction:column;height:auto}
 .main-container .side-image{height:70vh;width:100%}.main-container .about-text{width:100%}
 .main-container .about-text .about-body{padding:30px}}@media(min-width:821px){.nav{display:block !important}
 }@media(max-width:1000px){.about-body .tagline{font-size:42px}}@media(max-width:1100px){.card{margin:0 5%;padding:50px 0}
