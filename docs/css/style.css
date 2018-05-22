@@ -15,7 +15,7 @@
 .main-container .about-text .about-body .intro{font-size:18px;margin:40px 0}.main-container .about-text .about-body .intro a{color:#3897f0;text-decoration:underline}
 .insta{display:flex;flex-wrap:nowrap;justify-content:left;margin:0 20%}.insta .info{margin:auto 0}
 .insta .me{border-radius:50%;height:120px;margin:40px 40px 40px 20px;width:120px}
-.insta .title{display:flex;flex-wrap:nowrap;margin-bottom:15px;text-align:left}.insta .title .username{margin:0}
+.insta .title{display:flex;flex-wrap:nowrap;margin-bottom:15px;text-align:left}.insta .title .username{margin-right:5px}
 .insta .title h1{color:#1b1423;font-family:"Montserrat";margin:0 15px 0 0}
 .insta .counts{display:flex;flex-wrap:nowrap;font-family:"Karla";margin-bottom:10px;text-align:left}
 .insta .counts p{color:#1b1423;margin-left:0;margin-right:40px;text-align:left}.insta .counts p span{font-weight:bold}
@@ -26,15 +26,15 @@
 .card-dark{background-color:#1b1423}.card-dark h2,.card-dark h4,.card-dark li,.card-dark p{color:#fff}
 .card-dark i{color:#fff}.card-light{background-color:#f8f7f7}.no-bottom{padding-bottom:0 !important}
 .cover{background-color:#1b1423;height:280px}.location{margin:25px 0 30px}.location i{color:#1b1423}
-.location span{border:2px solid;border-radius:4px;color:#1b1423;padding:8px}.location:hover span{color:#3897f0}
-.location:hover i{color:#3897f0}.photo-me img{border:4px solid #fff;border-radius:100%;display:block;height:180px;margin:-100px auto 0;max-width:560px;position:relative;width:180px}
+.location span{border:1px solid;border-radius:18px;color:#1b1423;padding:8px}.location:hover span{background-color:#1b1423;border:0;color:#fff}
+.location:hover i{color:#fff}.photo-me img{border:4px solid #fff;border-radius:100%;display:block;height:180px;margin:-100px auto 0;max-width:560px;position:relative;width:180px}
 .photo-me .name-info{margin:0 30%;text-align:center}.photo-me .name-info h1{font-weight:400;margin:10px 0 0}
 .photo-me .name-info h3{color:#63717b;font-weight:400;margin:0 0 10px}.photo-me .name-info p{color:#9fadb7;margin:10px 0 15px}
 .photo-me .name-info .social{font-size:24px}.photo-me .name-info .social i{margin:4px}
-.photo-me .name-info .social i:hover{color:#3897f0}.role-group{display:flex}.role-group .role-details{margin-top:40px;width:90%}
-.role-group .role-details h2,.role-group .role-details h4,.role-group .role-details h5{font-weight:400;line-height:1.5}
-.role-group .role-details h5{color:#63717b;margin-bottom:10px}.role-group .role-logo{height:40px;margin:45px 40px 20px 0;width:40px}
-.role-info{margin-left:83px}.skills ul{padding-left:0}.skills .tags{align-items:center;background-color:#3897f0;border:0;border-radius:4px;color:#fff;display:inline-flex;font-size:14px;margin:5px;outline:0;padding:8px;transition:box-shadow .2s ease-in-out;user-select:none;vertical-align:middle}
+.photo-me .name-info .social i:hover{color:#3897f0}.role-group{display:flex}.role-group .logo-link{margin:50px 0 0}
+.role-group .role-details{margin-top:40px;width:90%}.role-group .role-details h2,.role-group .role-details h4,.role-group .role-details h5{font-weight:400;line-height:1.5}
+.role-group .role-details h5{color:#63717b;margin-bottom:10px}.role-group .role-logo{margin-right:40px;width:40px}
+.skills ul{padding-left:0}.skills .tags{align-items:center;background-color:#3897f0;border:0;border-radius:4px;color:#fff;display:inline-flex;font-size:14px;margin:5px;outline:0;padding:8px;transition:box-shadow .2s ease-in-out;user-select:none;vertical-align:middle}
 @media(max-width:480px){.insta .me{height:100px;margin:40px 20px;width:100px}.insta .title{display:table-cell}
 .insta .title button{margin:10px 0 0;width:85%}.insta .bio{display:none}.insta .counts{display:none}
 .centered-text{left:37%}.left-footer{margin:20px;text-align:left}}@media(max-width:800px){.links{display:none}
