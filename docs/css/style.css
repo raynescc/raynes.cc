@@ -4,8 +4,9 @@
 * h4{font-size:16px}* button{outline:0}.show-menu{background:#1b1423;border:0;color:#fff;cursor:pointer;display:none;font-family:"Karla";font-size:16px;font-weight:700;height:50px;text-align:center;text-decoration:none;text-transform:uppercase;width:100%}
 .show-menu:focus{outline:0}.nav ul{background-color:#1b1423;list-style:none;margin:0;padding:0;text-align:center}
 .nav ul li{display:inline-block;font-family:"Karla";font-size:16px;font-weight:700;height:50px;line-height:50px;width:140px}
-.nav ul .active{background-color:#3897f0}.nav a{color:#fff;display:block;text-decoration:none;text-transform:uppercase;transition:.3s background-color}
-.nav a:hover{background-color:#3897f0}.footer{margin:40px;text-align:center}.main-container{display:flex;display:-webkit-box;display:-ms-flexbox;height:100vh;width:100vw}
+.nav ul .active{background-color:#fff;color:#1b1423}.nav a{color:#fff;display:block;text-decoration:none;text-transform:uppercase;transition:.3s background-color}
+.nav a:hover{background-color:#fff;color:#1b1423}.footer{margin:40px;text-align:center}
+.main-container{display:flex;display:-webkit-box;display:-ms-flexbox;height:100vh;width:100vw}
 .main-container .side-image{background-image:url("../img/full.jpg");background-position:center center;background-size:cover;width:50%}
 .main-container .about-text{-ms-flex-align:center;-ms-flex-pack:center;-webkit-box-align:center;-webkit-box-pack:center;align-items:center;background-color:#1b1423;display:-webkit-box;display:-ms-flexbox;display:flex;justify-content:center;overflow:auto;width:50%}
 .main-container .about-text .about-body{padding:60px}.main-container .about-text .about-body a,.main-container .about-text .about-body p{color:#fff}
@@ -18,8 +19,8 @@
 .insta .title h1{color:#1b1423;font-family:"Montserrat";margin:0 15px 0 0}
 .insta .counts{display:flex;flex-wrap:nowrap;font-family:"Karla";margin-bottom:10px;text-align:left}
 .insta .counts p{color:#1b1423;margin-left:0;margin-right:40px;text-align:left}.insta .counts p span{font-weight:bold}
-.insta .bio{text-align:left}.see-more{margin-top:20px;text-align:center}.blue-btn{background-color:#3897f0;border:0;border-radius:3px;color:#fff;cursor:pointer;font-size:14px;height:24px;margin:8px;padding:0 15px}
-#instafeed{display:grid;grid-gap:20px;grid-template-columns:repeat(3,1fr);margin:0 20%}
+.insta .bio{text-align:left}.see-more{margin-top:20px;text-align:center}.blue-btn{background-color:#fff;border:1px solid #1b1423;border-radius:15px;color:#1b1423;cursor:pointer;font-size:14px;height:24px;margin:8px;padding:0 15px}
+.blue-btn:hover{background-color:#1b1423;border:0;color:#fff}#instafeed{display:grid;grid-gap:20px;grid-template-columns:repeat(3,1fr);margin:0 20%}
 #instafeed img{max-width:100%;vertical-align:bottom}#instafeed img:hover{opacity:.7}
 .mfp-counter,.mfp-title{font-family:"Karla"}.card{justify-content:left;padding:50px 300px}
 .card-dark{background-color:#1b1423}.card-dark h2,.card-dark h4,.card-dark li,.card-dark p{color:#fff}
