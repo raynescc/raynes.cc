@@ -389,7 +389,7 @@ $box-shadow: #232323;
         margin: 4px;
 
         &:hover {
-          color: $insta-blue;
+          color: $light-grey;
         }
       }
     }
@@ -433,10 +433,10 @@ $box-shadow: #232323;
 
   .tags {
     align-items: center;
-    background-color: $insta-blue;
+    background-color: $white;
     border: 0;
     border-radius: 4px;
-    color: $white;
+    color: $text;
     display: inline-flex;
     font-size: 14px;
     margin: 5px;
@@ -449,6 +449,12 @@ $box-shadow: #232323;
 }
 // ---------- Media Queries ----------
 @media (max-width: 480px) {
+  .role-group {
+    .role-logo {
+      margin-right: 20px;
+    }
+  }
+
   .insta {
     .me {
       height: 100px;
