@@ -1,11 +1,14 @@
 //----------  Body ----------
 @import url('https://fonts.googleapis.com/css?family=Karla:400,700');
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100');
+@font-face {
+  font-family: whitney;
+  src: url("font/WhitneyHTF-Book.otf");
+}
 $karla: 'Karla';
 $montserrat: 'Montserrat';
 $white: #fff;
 $text: #1b1423;
-$insta-blue: #3897f0;
 $dark-grey: #63717b;
 $light-grey: #9fadb7;
 $cream: #f8f7f7;
@@ -136,7 +139,6 @@ $box-shadow: #232323;
     -webkit-box-align: center;
     -webkit-box-pack: center;
     align-items: center;
-    background-color: $text;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -144,18 +146,24 @@ $box-shadow: #232323;
     overflow: auto;
     width: 50%;
 
+    .social {
+      font-size: 24px;
+
+      i {
+        margin: 4px;
+
+        &:hover {
+          color: $light-grey;
+        }
+      }
+    }
+
     .about-body {
       padding: 60px;
 
       a,
       p {
-        color: $white;
-      }
-
-      .my-name {
-        color: $insta-blue;
-        font-size: 20px;
-        margin-bottom: 30px;
+        color: $text;
       }
 
       .tagline {
@@ -163,8 +171,8 @@ $box-shadow: #232323;
       }
 
       #age {
-        font-size: 30px;
-        margin-top: 20px;
+        font-size: 20px;
+        padding: 20px;
       }
 
       .intro {
@@ -172,8 +180,12 @@ $box-shadow: #232323;
         margin: 40px 0;
 
         a {
-          color: $insta-blue;
+          color: $text;
           text-decoration: underline;
+
+          &:hover {
+            color: $dark-grey;
+          }
         }
       }
     }

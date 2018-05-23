@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css?family=Karla:400,700");@import url("https://fonts.googleapis.com/css?family=Montserrat:100");*{margin:0}
-* a,* h1,* h2,* h3,* h4,* h5,* i,* li,* p,* span,* ul{color:#1b1423;font-family:"Karla";margin:auto}
+@import url("https://fonts.googleapis.com/css?family=Karla:400,700");@import url("https://fonts.googleapis.com/css?family=Montserrat:100");@font-face{font-family:whitney;src:url("font/WhitneyHTF-Book.otf")}
+*{margin:0}* a,* h1,* h2,* h3,* h4,* h5,* i,* li,* p,* span,* ul{color:#1b1423;font-family:"Karla";margin:auto}
 * a{outline:0;text-decoration:none}* h1{font-size:32px}* h2{font-size:28px}* h3{font-size:20px}
 * h4{font-size:16px}* button{outline:0}.show-menu{background:#1b1423;border:0;color:#fff;cursor:pointer;display:none;font-family:"Karla";font-size:16px;font-weight:700;height:50px;text-align:center;text-decoration:none;text-transform:uppercase;width:100%}
 .show-menu:focus{outline:0}.nav ul{background-color:#1b1423;list-style:none;margin:0;padding:0;text-align:center}
@@ -7,13 +7,14 @@
 .nav ul .active{background-color:#fff;color:#1b1423}.nav a{color:#fff;display:block;text-decoration:none;text-transform:uppercase;transition:.3s background-color}
 .nav a:hover{background-color:#fff;color:#1b1423}.main-container{display:flex;display:-webkit-box;display:-ms-flexbox;height:100vh;width:100vw}
 .main-container .side-image{background-image:url("../img/full.jpg");background-position:center center;background-size:cover;width:50%}
-.main-container .about-text{-ms-flex-align:center;-ms-flex-pack:center;-webkit-box-align:center;-webkit-box-pack:center;align-items:center;background-color:#1b1423;display:-webkit-box;display:-ms-flexbox;display:flex;justify-content:center;overflow:auto;width:50%}
-.main-container .about-text .about-body{padding:60px}.main-container .about-text .about-body a,.main-container .about-text .about-body p{color:#fff}
-.main-container .about-text .about-body .my-name{color:#3897f0;font-size:20px;margin-bottom:30px}
-.main-container .about-text .about-body .tagline{font-size:64px}.main-container .about-text .about-body #age{font-size:30px;margin-top:20px}
-.main-container .about-text .about-body .intro{font-size:18px;margin:40px 0}.main-container .about-text .about-body .intro a{color:#3897f0;text-decoration:underline}
-.insta{display:flex;flex-wrap:nowrap;justify-content:left;margin:0 20%}.insta .info{margin:auto 0}
-.insta .me{border-radius:50%;height:120px;margin:40px 40px 40px 20px;width:120px}
+.main-container .about-text{-ms-flex-align:center;-ms-flex-pack:center;-webkit-box-align:center;-webkit-box-pack:center;align-items:center;display:-webkit-box;display:-ms-flexbox;display:flex;justify-content:center;overflow:auto;width:50%}
+.main-container .about-text .social{font-size:24px}.main-container .about-text .social i{margin:4px}
+.main-container .about-text .social i:hover{color:#9fadb7}.main-container .about-text .about-body{padding:60px}
+.main-container .about-text .about-body a,.main-container .about-text .about-body p{color:#1b1423}
+.main-container .about-text .about-body .tagline{font-size:64px}.main-container .about-text .about-body #age{font-size:20px;padding:20px}
+.main-container .about-text .about-body .intro{font-size:18px;margin:40px 0}.main-container .about-text .about-body .intro a{color:#1b1423;text-decoration:underline}
+.main-container .about-text .about-body .intro a:hover{color:#63717b}.insta{display:flex;flex-wrap:nowrap;justify-content:left;margin:0 20%}
+.insta .info{margin:auto 0}.insta .me{border-radius:50%;height:120px;margin:40px 40px 40px 20px;width:120px}
 .insta .title{display:flex;flex-wrap:nowrap;margin-bottom:15px;text-align:left}.insta .title .username{margin-right:5px}
 .insta .title h1{color:#1b1423;font-family:"Montserrat";margin:0 15px 0 0}
 .insta .counts{display:flex;flex-wrap:nowrap;font-family:"Karla";margin-bottom:10px;text-align:left}

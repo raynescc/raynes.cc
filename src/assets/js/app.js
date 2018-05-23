@@ -12,7 +12,7 @@ function showMenu() {
 $(document).ready(function() {
 
   // Fade page in on load
-  $(".fade").hide(0).delay(0).fadeIn(5000)
+  $(".fade").hide(0).delay(0).fadeIn(3000)
 
   // 'active' class navbar
   var pathname = window.location.pathname;
@@ -28,7 +28,7 @@ $(document).ready(function() {
       var now = new Date();
       var age = now.getTime() - start.getTime();
       var year = (age / 31556926000);
-      ageElement.innerHTML = year.toFixed(9);
+      ageElement.innerHTML = year.toFixed(8);
     }
     timer = setInterval(age, 1);
   }
