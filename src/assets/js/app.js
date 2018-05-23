@@ -12,7 +12,7 @@ function showMenu() {
 $(document).ready(function() {
 
   // Fade page in on load
-  $(".fade").hide(0).delay(0).fadeIn(3000)
+  $(".fade").hide(0).delay(0).fadeIn(5000)
 
   // 'active' class navbar
   var pathname = window.location.pathname;

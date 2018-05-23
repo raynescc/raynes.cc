@@ -161,18 +161,30 @@ $box-shadow: #232323;
     .about-body {
       padding: 60px;
 
+      h1 {
+        font-size: 44px;
+        padding-bottom: 40px;
+      }
+
       a,
       p {
         color: $text;
       }
 
-      .tagline {
-        font-size: 64px;
+      #age {
+        background-color: $text;
+        color: $white;
       }
 
-      #age {
-        font-size: 20px;
-        padding: 20px;
+      .me-stats-label {
+        color: $text;
+        font-size: 24px;
+      }
+
+      .me-stats {
+        background-color: $text;
+        color: $white;
+        font-size: 24px;
       }
 
       .intro {
@@ -180,11 +192,12 @@ $box-shadow: #232323;
         margin: 40px 0;
 
         a {
-          color: $text;
-          text-decoration: underline;
+          background-color: $text;
+          color: $white;
 
           &:hover {
-            color: $dark-grey;
+            background-color: $white;
+            color: $text;
           }
         }
       }

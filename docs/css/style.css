@@ -10,11 +10,14 @@
 .main-container .about-text{-ms-flex-align:center;-ms-flex-pack:center;-webkit-box-align:center;-webkit-box-pack:center;align-items:center;display:-webkit-box;display:-ms-flexbox;display:flex;justify-content:center;overflow:auto;width:50%}
 .main-container .about-text .social{font-size:24px}.main-container .about-text .social i{margin:4px}
 .main-container .about-text .social i:hover{color:#9fadb7}.main-container .about-text .about-body{padding:60px}
-.main-container .about-text .about-body a,.main-container .about-text .about-body p{color:#1b1423}
-.main-container .about-text .about-body .tagline{font-size:64px}.main-container .about-text .about-body #age{font-size:20px;padding:20px}
-.main-container .about-text .about-body .intro{font-size:18px;margin:40px 0}.main-container .about-text .about-body .intro a{color:#1b1423;text-decoration:underline}
-.main-container .about-text .about-body .intro a:hover{color:#63717b}.insta{display:flex;flex-wrap:nowrap;justify-content:left;margin:0 20%}
-.insta .info{margin:auto 0}.insta .me{border-radius:50%;height:120px;margin:40px 40px 40px 20px;width:120px}
+.main-container .about-text .about-body h1{font-size:44px;padding-bottom:40px}.main-container .about-text .about-body a,.main-container .about-text .about-body p{color:#1b1423}
+.main-container .about-text .about-body #age{background-color:#1b1423;color:#fff}
+.main-container .about-text .about-body .me-stats-label{color:#1b1423;font-size:24px}
+.main-container .about-text .about-body .me-stats{background-color:#1b1423;color:#fff;font-size:24px}
+.main-container .about-text .about-body .intro{font-size:18px;margin:40px 0}.main-container .about-text .about-body .intro a{background-color:#1b1423;color:#fff}
+.main-container .about-text .about-body .intro a:hover{background-color:#fff;color:#1b1423}
+.insta{display:flex;flex-wrap:nowrap;justify-content:left;margin:0 20%}.insta .info{margin:auto 0}
+.insta .me{border-radius:50%;height:120px;margin:40px 40px 40px 20px;width:120px}
 .insta .title{display:flex;flex-wrap:nowrap;margin-bottom:15px;text-align:left}.insta .title .username{margin-right:5px}
 .insta .title h1{color:#1b1423;font-family:"Montserrat";margin:0 15px 0 0}
 .insta .counts{display:flex;flex-wrap:nowrap;font-family:"Karla";margin-bottom:10px;text-align:left}
