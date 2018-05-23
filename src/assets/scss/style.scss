@@ -114,12 +114,6 @@ $box-shadow: #232323;
     }
   }
 }
-// ----------  Footer ----------
-
-.footer {
-  margin: 40px;
-  text-align: center;
-}
 // ----------  Home Page ----------
 
 .main-container {
@@ -246,7 +240,7 @@ $box-shadow: #232323;
 }
 
 .see-more {
-  margin-top: 20px;
+  margin: 20px 0 50px;
   text-align: center;
 }
 
@@ -319,7 +313,7 @@ $box-shadow: #232323;
 }
 
 .cover {
-  background-color: $text;
+  background-color: $cream;
   height: 280px;
 }
 
@@ -482,11 +476,6 @@ $box-shadow: #232323;
 
   .centered-text {
     left: 37%;
-  }
-
-  .left-footer {
-    margin: 20px;
-    text-align: left;
   }
 }
 @media (max-width: 800px) {
