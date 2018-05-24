@@ -34,6 +34,8 @@ $(document).ready(function() {
   }
 
   // Instagram pictures
+  var instafeed = document.getElementById('instafeed');
+  if (instafeed) {
   var instaElement = new Instafeed({
     get: 'user',
     userId: '6345390265',
@@ -44,9 +46,9 @@ $(document).ready(function() {
     sortBy: 'most-recent',
     limit: 18,
     template: '<div class="instaimg"><a href="{{image}}" title="{{caption}}" target="_blank"><img src="{{image}}" alt="{{caption}}" class="img-fluid"/></a></div>',
-
   });
   instaElement.run();
+}
 
   // Insta details
   var token = '6345390265.1677ed0.bd6241dd10504c7e9c901d5c2e1fec2c';
