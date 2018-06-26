@@ -51,7 +51,7 @@ $(document).ready(function() {
 }
 
   // Insta details
-  var token = '6345390265.1677ed0.bd6241dd10504c7e9c901d5c2e1fec2c';
+  var token = '6345390265.1677ed0.4e4d18eec4a54a4faddbabeb2186681f';
   $.ajax({
     url: 'https://api.instagram.com/v1/users/self',
     dataType: 'jsonp',
