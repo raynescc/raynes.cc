@@ -41,7 +41,7 @@ $(document).ready(function() {
     userId: '6345390265',
     clientId: 'd73bac66c11c45ac8bf4f44ccc5521df',
     target: 'instafeed',
-    accessToken: '6345390265.d73bac6.773341d5cfcc498e9e4e30f9d3f6a1bd',
+    accessToken: '6345390265.1677ed0.4e4d18eec4a54a4faddbabeb2186681f',
     resolution: 'standard_resolution',
     sortBy: 'most-recent',
     limit: 18,
