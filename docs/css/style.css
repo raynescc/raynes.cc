@@ -6,6 +6,8 @@
 .nav ul li{display:inline-block;font-family:"Karla";font-size:16px;font-weight:700;height:50px;line-height:50px;width:140px}
 .nav ul .active{background-color:#fff;color:#1b1423}.nav a{color:#fff;display:block;text-decoration:none;text-transform:uppercase;transition:.3s background-color}
 .nav a:hover{background-color:#fff;color:#1b1423}.main-container{display:flex;display:-webkit-box;display:-ms-flexbox;height:calc(100vh - 50px);width:100vw}
+.main-container .contact-button{border:1px solid;border-color:#1b1423;border-radius:50px;color:#1b1423;cursor:pointer;display:inline-block;font-family:"Karla";font-size:18px;height:42px;text-align:center;text-decoration:none;width:150px}
+.main-container .contact-button:active,.main-container .contact-button:focus,.main-container .contact-button:hover{background-color:#1b1423;color:#fff;outline:0;text-decoration:none}
 .main-container .side-image{background-image:url("../img/full.jpg");background-position:center center;background-size:cover;width:50%}
 .main-container .about-text{-ms-flex-align:center;-ms-flex-pack:center;-webkit-box-align:center;-webkit-box-pack:center;align-items:center;display:-webkit-box;display:-ms-flexbox;display:flex;justify-content:center;overflow:auto;width:50%}
 .main-container .about-text .social{font-size:24px}.main-container .about-text .social i{margin:4px}

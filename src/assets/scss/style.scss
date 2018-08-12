@@ -122,6 +122,30 @@ $box-shadow: #232323;
   height: calc(100vh - 50px);
   width: 100vw;
 
+  .contact-button {
+    border: 1px solid;
+    border-color: $text;
+    border-radius: 50px;
+    color: $text;
+    cursor: pointer;
+    display: inline-block;
+    font-family: $karla;
+    font-size: 18px;
+    height: 42px;
+    text-align: center;
+    text-decoration: none;
+    width: 150px;
+
+    &:active,
+    &:focus,
+    &:hover {
+      background-color: $text;
+      color: $white;
+      outline: 0;
+      text-decoration: none;
+    }
+  }
+
   .side-image {
     background-image: url("../img/full.jpg");
     background-position: center center;
