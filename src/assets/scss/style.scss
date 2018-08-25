@@ -455,8 +455,21 @@ $box-shadow: #232323;
 
     h5 {
       color: $dark-grey;
-      margin-bottom: 10px;
     }
+
+    .project-link {
+      color: $text;
+      font-size: 13px;
+      text-decoration: underline;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+
+  .role-info {
+    margin-top: 10px;
   }
 
   .role-logo {
