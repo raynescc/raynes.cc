@@ -16,7 +16,7 @@
 .main-container .about-text .about-body #age{background-color:#1b1423;color:#fff}
 .main-container .about-text .about-body .me-stats-label{color:#1b1423;font-size:24px}
 .main-container .about-text .about-body .me-stats{background-color:#1b1423;color:#fff;font-size:24px}
-.main-container .about-text .about-body .intro{font-size:18px;margin:40px 0}.main-container .about-text .about-body .intro a{background-color:#1b1423;color:#fff}
+.main-container .about-text .about-body .intro{font-size:18px;margin:30px 0}.main-container .about-text .about-body .intro a{background-color:#1b1423;color:#fff}
 .main-container .about-text .about-body .intro a:hover{background-color:#fff;color:#1b1423}
 .insta{display:flex;flex-wrap:nowrap;justify-content:left;margin:0 20%}.insta .info{margin:auto 0}
 .insta .me{border-radius:50%;height:120px;margin:40px 40px 40px 20px;width:120px}
