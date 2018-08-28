@@ -285,7 +285,7 @@ $box-shadow: #232323;
 }
 
 .see-more {
-  margin: 20px 0 50px;
+  margin: 20px 0;
   text-align: center;
 
   .ion-ios-arrow-down {
@@ -548,6 +548,19 @@ $box-shadow: #232323;
 @media (max-width: 800px) {
   .links {
     display: none;
+  }
+
+  .see-more {
+    margin: 0;
+
+    &:active,
+    &:hover {
+      background-color: $text;
+
+      .ion-ios-arrow-down {
+        color: $white;
+      }
+    }
   }
 
   #instafeed {
