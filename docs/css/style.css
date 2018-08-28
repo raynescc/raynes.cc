@@ -24,7 +24,8 @@
 .insta .title h1{color:#1b1423;font-family:"Montserrat";margin:0 15px 0 0}
 .insta .counts{display:flex;flex-wrap:nowrap;font-family:"Karla";margin-bottom:10px;text-align:left}
 .insta .counts p{color:#1b1423;margin-left:0;margin-right:40px;text-align:left}.insta .counts p span{font-weight:bold}
-.insta .bio{text-align:left}.see-more{margin:20px 0 50px;text-align:center}.blue-btn{background-color:#fff;border:1px solid #1b1423;border-radius:15px;color:#1b1423;cursor:pointer;font-size:14px;height:24px;margin:8px;padding:0 15px}
+.insta .bio{text-align:left}.see-more{margin:20px 0 50px;text-align:center}.see-more .ion-ios-arrow-down{cursor:pointer;font-size:50px}
+.see-more .ion-ios-arrow-down:hover{color:#63717b}.blue-btn{background-color:#fff;border:1px solid #1b1423;border-radius:15px;color:#1b1423;cursor:pointer;font-size:14px;height:24px;margin:8px;padding:0 15px}
 .blue-btn:hover{background-color:#1b1423;border:0;color:#fff}#instafeed{display:grid;grid-gap:20px;grid-template-columns:repeat(3,1fr);margin:0 20%}
 #instafeed img{max-width:100%;vertical-align:bottom}#instafeed img:hover{opacity:.7}
 .mfp-counter,.mfp-title{font-family:"Karla"}.card{justify-content:left;padding:50px 300px}

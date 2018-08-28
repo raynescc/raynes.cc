@@ -287,6 +287,15 @@ $box-shadow: #232323;
 .see-more {
   margin: 20px 0 50px;
   text-align: center;
+
+  .ion-ios-arrow-down {
+    cursor: pointer;
+    font-size: 50px;
+
+    &:hover {
+      color: $dark-grey;
+    }
+  }
 }
 
 .blue-btn {
