@@ -552,15 +552,6 @@ $box-shadow: #232323;
 
   .see-more {
     margin: 0;
-
-    &:active,
-    &:hover {
-      background-color: $text;
-
-      .ion-ios-arrow-down {
-        color: $white;
-      }
-    }
   }
 
   #instafeed {
