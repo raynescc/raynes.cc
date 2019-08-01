@@ -9,6 +9,9 @@ $dark-grey: #63717b;
 $light-grey: #9fadb7;
 $cream: #f8f7f7;
 $box-shadow: #232323;
+$twitter: #1da1f2;
+$linkedin: #0077B5;
+$github: #333;
 
 * {
   margin: 0;
@@ -52,6 +55,18 @@ $box-shadow: #232323;
 
   button {
     outline: 0;
+  }
+
+  .twitter {
+    color: $twitter;
+  }
+
+  .linkedin {
+    color: $linkedin;
+  }
+
+  .github {
+    color: $github;
   }
 }
 //----------  Nav Bar ----------
@@ -224,119 +239,7 @@ $box-shadow: #232323;
     }
   }
 }
-// ---------- Photos Page ----------
-
-.insta {
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: left;
-  margin: 0 20%;
-
-  .info {
-    margin: auto 0;
-  }
-
-  .me {
-    border-radius: 50%;
-    height: 120px;
-    margin: 40px 40px 40px 20px;
-    width: 120px;
-  }
-
-  .title {
-    display: flex;
-    flex-wrap: nowrap;
-    margin-bottom: 15px;
-    text-align: left;
-
-    .username {
-      margin-right: 5px;
-    }
-
-    h1 {
-      color: $text;
-      font-family: $montserrat;
-      margin: 0 15px 0 0;
-    }
-  }
-
-  .counts {
-    display: flex;
-    flex-wrap: nowrap;
-    font-family: $karla;
-    margin-bottom: 10px;
-    text-align: left;
-
-    p {
-      color: $text;
-      margin-left: 0;
-      margin-right: 40px;
-      text-align: left;
-
-      span {
-        font-weight: bold;
-      }
-    }
-  }
-
-  .bio {
-    text-align: left;
-  }
-}
-
-.see-more {
-  margin: 20px 0;
-  text-align: center;
-
-  .ion-ios-arrow-down {
-    cursor: pointer;
-    font-size: 50px;
-
-    &:hover {
-      color: $dark-grey;
-    }
-  }
-}
-
-.blue-btn {
-  background-color: $white;
-  border: 1px solid $text;
-  border-radius: 15px;
-  color: $text;
-  cursor: pointer;
-  font-size: 14px;
-  height: 24px;
-  margin: 8px;
-  padding: 0 15px;
-
-  &:hover {
-    background-color: $text;
-    border: 0;
-    color: $white;
-  }
-}
-
-#instafeed {
-  display: grid;
-  grid-gap: 20px;
-  grid-template-columns: repeat(3, 1fr);
-  margin: 0 20%;
-
-  img {
-    max-width: 100%;
-    vertical-align: bottom;
-
-    &:hover {
-      opacity: 0.7;
-    }
-  }
-}
-
-.mfp-counter,
-.mfp-title {
-  font-family: $karla;
-}
-// ---------- Resume Page ----------
+// ---------- About Page ----------
 
 .card {
   justify-content: left;
@@ -367,12 +270,11 @@ $box-shadow: #232323;
 }
 
 .cover {
-  background-color: $cream;
-  height: 280px;
+  height: 230px;
 }
 
 .location {
-  margin: 25px 0 30px;
+  margin: 25px 0 45px;
 
   i {
     color: $text;
@@ -380,21 +282,9 @@ $box-shadow: #232323;
 
   span {
     border: 1px solid;
-    border-radius: 18px;
+    border-radius: 4px;
     color: $text;
     padding: 8px;
-  }
-
-  &:hover {
-    span {
-      background-color: $text;
-      border: 0;
-      color: $white;
-    }
-
-    i {
-      color: $white;
-    }
   }
 }
 
@@ -516,31 +406,6 @@ $box-shadow: #232323;
     }
   }
 
-  .insta {
-    .me {
-      height: 100px;
-      margin: 40px 20px;
-      width: 100px;
-    }
-
-    .title {
-      display: table-cell;
-
-      button {
-        margin: 10px 0 0;
-        width: 85%;
-      }
-    }
-
-    .bio {
-      display: none;
-    }
-
-    .counts {
-      display: none;
-    }
-  }
-
   .centered-text {
     left: 37%;
   }
@@ -551,15 +416,6 @@ $box-shadow: #232323;
   }
 
   .see-more {
-    margin: 0;
-  }
-
-  #instafeed {
-    grid-gap: 5px;
-    margin: 0;
-  }
-
-  .insta {
     margin: 0;
   }
 
