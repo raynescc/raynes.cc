@@ -227,12 +227,11 @@ $github: #333;
         margin: 30px 0;
 
         a {
-          background-color: $text;
-          color: $white;
+          color: $twitter;
+          text-decoration: underline;
 
           &:hover {
-            background-color: $white;
-            color: $text;
+            text-decoration: none;
           }
         }
       }
