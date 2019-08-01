@@ -1,6 +1,6 @@
 # raynes.io
 
-Curious to know more about me? [Click here](https://raynes.io) 👈 and take a look at my personal website.
+View my [personal website](https://raynes.io).
 
 
 ## Run locally
@@ -15,4 +15,4 @@ Curious to know more about me? [Click here](https://raynes.io) 👈 and take a l
   gulp
   ```
 
-🚀 3. Go to http://localhost:3000/ and you should see the site.
+3. Go to http://localhost:3000/ and you should see the site.

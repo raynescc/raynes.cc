@@ -45,10 +45,10 @@ gulp.task('server', () => {
   });
 });
 
-// Watch task to watch specific folders for changes
+// Watch task to look out for specific changes in folders
 gulp.task('watch', () => {
   gulp.watch(['./src/assets/scss/*.scss', './src/assets/js/*.js', './src/*.html'], ['sass', 'js', 'html']);
 });
 
-// An array of tasks, allowing you to simply run 'gulp' for all tasks
+// An array of tasks, allowing you to simply run 'gulp' for all tasks at once
 gulp.task('default', ['html', 'js', 'sass', 'server', 'watch']);
