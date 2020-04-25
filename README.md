@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5786aa8b-a2a0-492c-a6e3-e3b15ed2a807/deploy-status)](https://app.netlify.com/sites/raynesio/deploys)
+
 # raynes.io
 
 View my [personal website](https://raynes.io).
