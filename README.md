@@ -1,4 +1,5 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/27906b42-3af7-4cde-9df8-c54403c60edf/deploy-status)](https://app.netlify.com/sites/raynesio/deploys)
+[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 
 # raynes.io
 
