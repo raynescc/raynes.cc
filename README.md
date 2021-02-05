@@ -16,8 +16,8 @@ My personal website in 2017 (archived)
 2. Do the following in Terminal or command line
 
   ```
-  git clone https://github.com/raynesio/raynes.io.git
-  cd raynes.io
+  git clone https://github.com/raynesio/personal-website-2017.git
+  cd personal-website-2017
   npm install
   gulp
   ```
