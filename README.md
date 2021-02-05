@@ -7,6 +7,7 @@ View my [personal website](https://raynes.io).
 
 ## Stack
 * HTML, CSS, JS
+* Gulp
 * Hosted via Netlify
 
 ## Run locally
