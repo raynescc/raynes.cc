@@ -3,6 +3,8 @@
 
 # Personal website (2017)
 
+My personal website in 2017.
+
 ## Stack
 * HTML, CSS, JS
 * Gulp
